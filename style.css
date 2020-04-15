@@ -1,0 +1,274 @@
+body {
+    margin-top: 3.5em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    /*for scrollspy: linking sections with navigation bar at scrolling*/
+    position: relative; 
+}
+
+/*Jumbotron*/
+.jumbotron{
+    margin-bottom: 0;
+    margin-top: 0;   
+    background-color:#179b9f;
+    color: white;
+    border-radius: 0;
+    padding-top: 4.5em;
+    padding-bottom: 3.5em;
+}
+#frontend{
+    margin-bottom: 1em;
+}
+.jumbotron p{
+    font-size: 1.3em;
+}
+/*Navigation Bar*/
+.navbar{
+    padding-bottom: 0px;
+    padding-top: 0px;    
+}
+nav li a{
+    font-size: 1.4em;
+    color: rgba(255,255,255,0.6) !important;
+}
+nav li a:hover, nav li a.active, .navbar-brand:hover{
+    color: white !important;    
+}
+nav a{
+    margin-left: 1em;
+    margin-right: 1em;    
+}
+.navbar-brand{
+    font-size: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    color: rgba(255,255,255,0.8) !important;
+}
+.smallImageWhite{
+    font-size: 1.7em;
+    margin-left: 0;
+    margin-right:0;
+    color: rgba(255,255,255,0.7);  
+}
+a:hover .smallImageWhite{
+    color: rgba(255,255,255,1); 
+}
+.navbar-toggler:hover, .navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    border: 0.1em solid rgba(255,255,255,0.7);
+}
+
+/*Sections*/
+.title{
+    padding-top: 5em;
+    padding-bottom: 3em;
+}
+.sectionBackground{   
+    padding: 1em 1.5em 5em 1.5em;
+}
+.rowBox{    
+    background-color: rgba(255,255,255,0.8);
+}
+
+/*Section: About*/
+#about{   
+    color: rgb(52,58,64);    
+}
+#Natallia{
+    border-radius: 50%;
+    height: 14em;
+    width: 12.5em;
+    margin-bottom: 2em;
+}
+#introduction{
+    font-size: 1.1em;
+    color: rgb(52,58,64);
+    text-align: justify;
+}
+.skillsBox {
+    padding-top: 0.5em;  
+    font-size: 1.1em;
+    color: rgb(52,58,64);
+}
+p.tools{
+    margin-bottom: 0;
+}
+
+/*Section: Projects*/
+#projects{
+    color: rgb(52,58,64);
+    border-top: 1px solid rgba(65,105,225, 0.2);
+    border-bottom: 1px solid rgba(65,105,225, 0.2); 
+}
+.btn{
+    border: none;    
+    background-color: white;
+    border: 0.1em solid rgba(52,58,64, 0.7);
+    color: rgb(52,58,64);
+    border-radius: 0;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+}
+.btn:hover{
+    background-color: rgba(52,58,64, 1);
+    color: white;
+    box-shadow: none;
+    transform: translateY(0.1em);
+}
+.tagclicked{
+    margin-bottom: 1em;
+}
+/*change background color of clicked tag and animate*/
+.tagclicked:focus{
+    background-color: rgba(52,58,64, 1);
+    color: white;  
+    box-shadow: none; 
+}
+.btnmore:focus, .btnViewProject:focus{
+    box-shadow: none; 
+}
+/*animation*/
+.btn:active{   
+    transform: translateY(0.1em);
+    box-shadow: none;
+}
+button{
+    margin: 0px;
+    border: 0.1em solid red; 
+}
+.pictureBox{
+    margin-top: 3em;
+    border: 0.1em solid rgb(52,58,64);
+    position: relative;        
+}
+.imgWrap{
+    padding-left: 2em;
+    padding-right: 2em;  
+}
+/*display project details and hide the image*/
+.pictureBox:hover .paleImg{
+    visibility:hidden;
+}
+.pictureBox:hover .imgWrap{
+    background-color: rgba(183, 208, 242,0.1); 
+}
+.pictureBox:hover .projectTechnology{
+    opacity:1; 
+}
+.projectTechnology{
+    opacity: 0;
+    /*center the box inside of the pictureBox*/
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    color: rgb(52,58,64);
+}
+.btnmore{
+    margin-top: 1em;
+}
+.viewProject{
+    margin-top: 2em;
+}
+.projectName{
+    padding: 0.5em;
+    margin: 0;
+    color: white;
+    font-size: 1em;
+    background-color: rgb(52,58,64);
+}
+
+/*Section: CV*/
+#cv{
+    color: rgb(52,58,64);
+}
+#skillsCV{
+    font-size: 1.4em;
+    color:rgb(52,58,64)
+}
+#CViframe{
+    display: none;
+    width: 100%;
+    height: 40em;
+}
+#closeCV{
+    display: none;
+    margin-bottom: 1.5em;
+}
+#closeCV, #openCV{
+    margin-top: 1.5em;
+}
+
+/*Section: Contact*/
+#contact{
+    background-color:#179b9f;
+    padding-bottom: 4em;
+    color: white;
+}
+#email{
+    margin-bottom: 2em;
+}
+#email p{
+    font-weight: 400;
+    font-size: 1.2em;
+}
+/*icons social media*/
+.smallImage{
+    font-size: 2em;  
+    color: white;
+    margin: 0 0.2em 0.2em 0.2em;    
+    border: 0.1em solid white;
+    border-radius: 50%;
+    padding: 0.3em;
+}
+a:hover .smallImage{
+    color: 	#179b9f;
+    background-color: white;
+}
+
+/*Footer*/
+#footer{
+    padding: 1.5em 0 0.5em 0;
+    background-color:rgb(52,58,64);
+    color: rgba(255,255,255,0.6);
+}
+
+/*Project Details Page*/
+#projectDetails{
+    color: rgb(52,58,64); 
+}
+.projectDetails{
+    color:rgb(52,58,64);
+    text-align: left;
+}
+/*carousel*/
+#projectCarousel{
+    position: relative;
+    margin-left: 0;
+    margin-right: 0; 
+    padding-left: 0;
+    padding-right: 0;    
+}
+.carousel-indicators, .carousel-control-prev, .carousel-control-next{
+    filter: invert(95%) !important;
+    position: absolute;   
+}
+.carousel-indicators{
+    bottom: -3em;
+}
+.carousel-item img{
+    border: 0.1em solid rgba(0,0,0,0.7);
+    border-radius: 0 !important;
+    padding: 0.6em;
+    width: 75% !important;
+}
+#projectScreenshots{
+    margin-bottom: 4em;
+    padding-left: 0;
+    padding-right: 0;   
+}
+.viewcode {
+    font-size: 1.3em;  
+}

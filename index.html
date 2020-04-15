@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <!--Font Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+        <!-- Custom CSS --> 
+        <link rel="stylesheet" href="style.css">
+
+        <title>Natallia's Portfolio</title>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="150">
+
+        <!--Menu-->
+        <nav role="navigation" class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+
+            <!--Logo-->
+            <a class="navbar-brand" href="#about">Natallia Akulenka<br/>Web Developer</a>
+            <a href="http://linkedin.com/in/natallia-akulenka" target="_blank">
+                <i class="fa fa-linkedin smallImageWhite"></i> 
+            </a>
+            <a href="http://github.com/NatalliaA" target="_blank">
+                <i class="fa fa-github smallImageWhite"></i>
+            </a>
+
+            <!--Collapsible Button-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cv">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>  
+        </nav>
+
+        <!--Jumbotron-->
+        <div id="header" class="jumbotron">
+            <div class="container">      
+                <h1 id="frontend">Web Developer</h1>      
+                <p>Are you looking for a motivated and self-driven web developer?</p>
+                <p>Take a look at my projects and get in touch with me!</p>
+            </div>
+        </div>
+
+        <!--Section: About-->
+        <div class="container-fluid">
+            <div class="row rowBox">
+                <div id="about" class="offset-sm-1 col-sm-10 offset-md-2 col-md-8 offset-lg-3 col-lg-6 sectionBackground"> 
+                    <div class="title">   
+                        <h1>About me</h1>
+                    </div>  
+                    <div> 
+                        <img id="Natallia" class="img-fluid" alt="project" src="images/Nata.JPG">
+                    </div>
+                    <div>
+                        <p id="introduction">Hi, I am Natallia! I am looking for a junior web developer position. My strength is in designing and developing responsive and user-friendly websites. In addition to front-end development, I also have experience working with back-end technologies. I hold 2 Master’s degrees: MS in Computer Science and MA in Communication and Language. I can offer your team a different viewpoint from my former career in teaching Russian and German languages to diverse groups of all ages. My other passions include ultramarathons, photography, traveling, and meeting people from all over the world.</p> 
+                    </div>
+
+                    <!--Skills-->         
+                    <div class="offset-md-2 col-md-8 skillsBox">
+                        <h3>Tools</h3>
+                        <p class="tools">HTML, CSS, Bootstrap, JavaScript, jQuery, Java, SQL, ASP.NET, C#, VB, third-party APIs.</p>                     
+                    </div>      
+                </div>
+            </div> 
+
+            <!--Section: Projects-->
+            <div class="row rowBox">
+                <div id="projects" class="offset-sm-1 col-sm-10 offset-md-2 col-md-8 offset-lg-1 col-lg-10 offset-xl-2 col-xl-8 sectionBackground">
+
+                    <!--Title-->
+                    <div class="title"> 
+                        <h1>Projects</h1>
+                    </div>
+
+                    <!--Project Tags-->
+                    <div id="technologyTags">
+                        <button id="allbtn" class="btn tagclicked" type="button">All Projects</button>
+                        <button id="bootstrapbtn" class="btn tagclicked" type="button">Bootstrap</button> 
+                        <button id="jsbtn" class="btn tagclicked" type="button">JavaScript</button>
+                        <button id="jquerybtn" class="btn tagclicked" type="button">jQuery</button> 
+                        <button id="thirdpartybtn" class="btn tagclicked" type="button">Third-Party APIs</button> 
+                        <button id="aspnetbtn" class="btn tagclicked" type="button">ASP.NET</button> 
+                    </div> 
+
+                    <!--Images of Projects-->
+                    <div id="projectContainer" class="row">
+
+                        <!--Project: Nature in California-->
+                        <div id="natureproject" class="col-lg-6 projectImage">
+                            <div class="pictureBox"> 
+                                <div class="imgWrap">
+                                    <img class="img-fluid paleImg" alt="Project" src="images/npscreen1.PNG">
+                                </div>
+                                <p class="projectName">Nature in California</p>
+                                <!--Technology-->
+                                <div class="projectTechnology">
+                                    <h5>HTML5, CSS Grid, JavaScript, Google Maps API, Social APIs</h5> 
+                                    <a class="btn btnmore" href="natureincaProject.html">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Project: Top Cities to Visit in the USA-->
+                        <div id="citiesproject" class="col-lg-6 projectImage">
+                            <div class="pictureBox">
+                                <div class="imgWrap">
+                                    <img class="img-fluid paleImg" alt="Project" src="images/citiesscreen1.PNG">
+                                </div>
+                                <p class="projectName">Travel &amp; Learn</p>
+                                <!--Technology-->
+                                <div class="projectTechnology">
+                                    <h5>HTML5, CSS Grid, JavaScript, Google Maps API</h5>            
+                                    <a class="btn btnmore" href="topcitiesProject.html">Learn more</a>
+                                </div>               
+                            </div>
+                        </div> 
+
+                        <!--Project: Online School-->
+                        <div id="schoolproject" class="col-lg-6 projectImage">
+                            <div class="pictureBox">
+                                <div class="imgWrap">
+                                    <img class="img-fluid paleImg" alt="Project" src="images/schoolscreen1.png">
+                                </div>
+                                <p class="projectName">Online School</p>
+                                <!--Technology-->
+                                <div class="projectTechnology">
+                                    <h5>HTML5, CSS3, Bootstrap, jQuery</h5> 
+                                    <a class="btn btnmore" href="onlineschoolProject.html">Learn more</a>
+                                </div>       
+                            </div>
+                        </div>
+
+                        <!--Project: Russian for Kids-->
+                        <div id="russianproject" class="col-lg-6 projectImage">
+                            <div class="pictureBox">
+                                <div class="imgWrap">
+                                    <img class="img-fluid paleImg" alt="project" src="images/russianscreen4.png">
+                                </div>
+                                <p class="projectName">Russian for Kids</p>
+                                <!--Technology-->
+                                <div class="projectTechnology">
+                                    <h5>Bootstrap, ASP.NET, Visual Basic, JavaScript, SQL, Third-Party APIs</h5> 
+                                    <a class="btn btnmore" href="russianforkidsProject.html">Learn more</a>
+                                </div>       
+                            </div>
+                        </div>
+
+                        <!--Project: Multiplication Game-->
+                        <div id="multiplicationproject" class="col-lg-6 projectImage">
+                            <div class="pictureBox">
+                                <div class="imgWrap">
+                                    <img class="img-fluid paleImg" alt="project" src="images/multiplicationscreen1.png">
+                                </div>
+                                <p class="projectName">Multiplication Game</p>
+                                <!--Technology-->
+                                <div class="projectTechnology">
+                                    <h5>HTML5, CSS3, JavaScript</h5>           
+                                    <a class="btn btnmore" href="multiplicationProject.html">Learn more</a>
+                                </div>       
+                            </div>
+                        </div>   
+
+                        <!--Project: Drawing Tool-->
+                        <div id="drawingproject" class="col-lg-6 projectImage">
+                            <div class="pictureBox">
+                                <div class="imgWrap">
+                                    <img class="img-fluid paleImg" alt="project" src="images/drawscreen1.png">
+                                </div>
+                                <p class="projectName">Drawing Tool</p>
+                                <!--Technology-->
+                                <div class="projectTechnology">
+                                    <h5>HTML Canvas, CSS3, JavaScript, jQuery</h5>
+                                    <a class="btn btnmore" href="drawProject.html">Learn more</a>
+                                </div>       
+                            </div>
+                        </div>
+                    </div>
+                </div>           
+            </div> 
+
+            <!--Section: CV-->
+            <div id="cv" class="row rowBox">
+                <div class="offset-md-1 col-md-10 offset-lg-2 col-lg-8 offset-xl-3 col-xl-6 sectionBackground">
+
+                    <!--Title-->
+                    <div class="title"> 
+                        <h1>CV</h1> 
+                    </div>
+                    <div><p id="skillsCV">Education. Skills. Experience.</p> 
+                    </div> 
+
+                    <!--CV file-->
+                    <div>
+                        <button id="openCV" type="button" class="btn btnCV" >Open CV</button>
+                        <button id="closeCV" type="button" class="btn btnCV" >Close CV</button>
+                        <iframe id="CViframe" src="Natallia_cv.pdf"></iframe>
+                    </div> 
+                </div>         
+            </div>
+        </div>               
+
+        <!--Section: Contact-->
+        <div id="contact" class="container-fluid">
+
+            <!--Title-->
+            <div class="title"> 
+                <h1>Contact</h1>
+            </div>
+
+            <!--Contact Details-->
+            <div id="email">
+                <p>natallia.developer@gmail.com</p>
+            </div>
+            <div>
+                <a href="mailto:natallia.developer@gmail.com" target="_blank">
+                    <i class="fa fa-envelope smallImage"></i></a> 
+                <a href="http://linkedin.com/in/natallia-akulenka" target="_blank">
+                    <i class="fa fa-linkedin smallImage"></i></a>
+                <a href="http://github.com/NatalliaA" target="_blank">        
+                    <i class="fa fa-github smallImage"></i></a>
+            </div>
+        </div> 
+
+        <!--Footer-->
+        <div id="footer">
+            <footer>
+                <p>&copy;2020 Natallia Akulenka</p>
+            </footer>
+        </div>
+
+        <!--jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!-- Optional JavaScript for Bootstrap -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!--    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>-->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <!--Custom JavaScript-->
+        <script src="javascript.js"></script>
+    </body>
+</html>
