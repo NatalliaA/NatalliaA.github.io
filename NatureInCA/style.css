@@ -61,8 +61,8 @@ div.brandYosemite{
     background-color: seagreen; 
     padding: 0 5%;
 }
-.mainnav .contact{
-    padding-left: 20px;
+.mainnav .home{
+    padding-right: 20px;
     /*    float: right;*/
 }
 .mainnav a{
