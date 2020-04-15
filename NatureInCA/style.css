@@ -63,7 +63,7 @@ div.brandYosemite{
 }
 .mainnav .contact{
     padding-left: 20px;
-/*    float: right;*/
+    /*    float: right;*/
 }
 .mainnav a{
     float: left;
@@ -283,12 +283,11 @@ span{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     *{
-        letter-spacing: normal;
-    }
+/*        letter-spacing: normal;*/
+    }    
     div.brand{
         height: 300px;
         line-height:normal;
-
     }
     #brandname {
         font-size: 32px;    
@@ -296,6 +295,15 @@ span{
     }    
     .mainnav{
         padding: 0 5%;
+    }
+    .mainnav a{    
+        font-size: 20px;     
+    }
+    .dropdown .dropbtn {
+        font-size: 20px;    
+    }
+    .dropdown-content a{
+        font-size: 18px;   
     }
     section{
         padding: 40px 5%;
