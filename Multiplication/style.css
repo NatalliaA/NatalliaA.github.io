@@ -12,16 +12,6 @@ html
     color: #2c2e9a;
     margin-top: 50px;
 }
-.player{     
-    border-radius:5px;  
-    position: relative;
-    margin: 50px auto;
-    width: 210px;
-}
-#startgame{
-    width: 210px;
-    height: 25px;    
-}
 #board{
     background-color:#abd7ec;
     width: 500px;
