@@ -17,7 +17,6 @@ document.getElementById("start").onclick = function(){
     else
     {
         //change mode to playing
-        document.getElementById("startgame").pause();
         playing=true;
         score=0;        
         document.getElementById("scoreNumber").innerHTML=score;
