@@ -49,8 +49,7 @@ $(function(){
             //display gray maps as unanswered questions
             for(var m=0; m<12; m++){
                 $("#map"+m).removeClass("redmap greenmap");
-            }
-            
+            }            
             //hide gameover
             $("#gameover").hide();
             $("#wrong").hide();
@@ -159,7 +158,7 @@ $(function(){
                     randomindex = Math.floor(Math.random()*12);//from 0 to 11 for 12 countries
                     wrongAnswer = countries[randomindex][1];
                 }            
-                while(answers.indexOf(wrongAnswer)>-1) //wrongAnswer is already in the answer list, we countinue do loop   
+                while(answers.indexOf(wrongAnswer)>-1) //wrongAnswer is already in the answer list, we countinue do loop 
 
                     $("#answer"+i).text(wrongAnswer);
                 //add wrong answer to answer choices
@@ -191,12 +190,19 @@ $(function(){
         $("#wrong").hide();
         $("#true").hide();
         $("#exit").show();
-        $("#startresume").text("Try Again");    
+        $("#startresume").text("Try Again");
+        //hide answers text
+        $("#answer1").text("");
+        $("#answer2").text("");
+        $("#answer3").text("");
+        $("#answer4").text("");
+        //hide country text
+        $("#country").text("");
 
         //change playing mode
         playing=false;                
     }
-    
+
     //user clicks on Exit
     $("#exit").click(function(){
         location.reload();
