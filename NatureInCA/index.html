@@ -20,9 +20,12 @@
         <div id="fb-root"></div>
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script> 
 
+        <!--Header-->
         <div class="brand">
             <p id="brandname">Nature in California</p>
         </div>
+
+        <!--Navigation Bar-->
         <div class="mainnav">
             <div class="dropdown">
                 <button class="dropbtn">National Parks <i class="fa fa-caret-down"></i></button>
@@ -46,7 +49,6 @@
             <article>
 
                 <!-- Title -->
-
                 <div class="info">
                     <h1 id="title">National Parks in California</h1>
 
@@ -54,14 +56,12 @@
                 </div>               
 
                 <!--Map with all NP-->
-
                 <div class="allnpmap">
                     <h3>Map of National Parks in CA</h3>
                     <p id="GoogleMaps"></p>    
                 </div>
 
                 <!--List of national parks-->
-
                 <div id="parklist" class="container">
                     <div id="Redwood" class="imgbox">
                         <a href="redwood.html">
@@ -126,13 +126,11 @@
                 <div class="timeline">
 
                     <!--Facebook button-->
-
                     <div class="facebookbtn">  
                         <div class="fb-like" data-href="https://natureincalifornia.com" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
                     </div>
 
                     <!--Twitter button-->
-
                     <div class="tweetbtn">  
                         <a class="twitter-share-button" data-size="large" 
                            href="https://twitter.com/intent/tweet?text=Nature in California">
@@ -145,23 +143,18 @@
 
         <!--Contact-->
         <div id="contactsection">
-
             <!--title-->
             <div class="title"> 
                 <h1>Contact</h1>
             </div>
-
             <!--contact details-->
-
-            <div id="email">
-                <p>natallia.developer@gmail.com</p>
+            <div id="email">                <p>natallia.developer@gmail.com</p>
             </div>
-
             <!--contact icons-->
             <div>
                 <a href="mailto:natallia.developer@gmail.com" target="_blank"><i class="fa fa-envelope smallImage"></i></a>
                 <a href="http://linkedin.com/in/natallia-akulenka" target="_blank">
-                    <i class="fa fa-linkedin smallImage"></i></a>             
+                    <i class="fa fa-linkedin smallImage"></i></a>  
                 <a href="http://github.com/NatalliaA" target="_blank">        
                     <i class="fa fa-github smallImage"></i>
                 </a>  
@@ -170,14 +163,13 @@
 
         <!--Footer-->
         <footer>
-
-            <p>Copyright&copy;2020 Natallia Akulenka</p>
+            <p>&copy; 2020 Natallia Akulenka</p>
         </footer>
 
-        <!--    JavaScript for Google Maps API-->
+        <!--JavaScript for Google Maps API-->
         <script>
 
-            //creat map
+            //create map
             var map;
             //location
             var coordinates;          
@@ -203,7 +195,7 @@
                         "picture": "images/redwood9.jpg",
                         "lat": 41.2,  
                         "lng": -124,
-                        "url":"#Redwood"        
+                        "url":"#Redwood"       
                     },
 
                     {
@@ -215,41 +207,35 @@
                     },
 
                     {
-                        "text": "Yosemite",  
-                        "picture":"images/Yosemite1.jpg",    
+                        "text": "Yosemite",  "picture":"images/Yosemite1.jpg",    
                         "lat": 37.8,  
                         "lng": -119.5,
                         "url":"#Yosemite"
                     }, 
 
-
                     {
-                        "text": "Pinnacles",
-                        "picture":"images/Pinnacles9.jpg",    
+                        "text": "Pinnacles", "picture":"images/Pinnacles9.jpg",    
                         "lat": 36.4,  
                         "lng":  -121.1,
                         "url":"#Pinnacles"    
                     },
 
                     {
-                        "text": "Kings Canyon",
-                        "picture":"images/KingsCanyon1.jpg",    
+                        "text": "Kings Canyon", "picture":"images/KingsCanyon1.jpg",    
                         "lat": 36.8,  
                         "lng":  -118.5,
                         "url":"#KingsCanyon" 
                     },
 
                     {
-                        "text": "Sequoia",
-                        "picture":"images/Sequoia10.jpg",    
+                        "text": "Sequoia",   "picture":"images/Sequoia10.jpg",    
                         "lat": 36.3,  
                         "lng":  -118.5,
                         "url":"#Sequoia" 
                     },
 
                     {
-                        "text": "Channel Islands",
-                        "picture":"images/ChannelIslands5.jpg",    
+                        "text": "Channel Islands", "picture":"images/ChannelIslands5.jpg",    
                         "lat": 34.0,  
                         "lng":  -119.7,
                         "url":"#ChannelIslands"       
@@ -264,13 +250,11 @@
                     },       
 
                     {     
-                        "text": "Joshua Tree",
-                        "picture":"images/JoshuaTree12.jpg",    
+                        "text": "Joshua Tree", "picture":"images/JoshuaTree12.jpg",    
                         "lat": 33.8,  
                         "lng":  -115.9,   
-                        "url": '#JoshuaTree'     
+                        "url": '#JoshuaTree'
                     }
-
                 ];  
 
                 var infoWindow = new google.maps.InfoWindow();
@@ -302,7 +286,6 @@
                         infoWindow.setContent('<img style="height:150px" src='+this.picture+'>');
                         infoWindow.open(map,this);
                     });
-
                 }    
             }              
         </script>
