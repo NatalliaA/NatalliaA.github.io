@@ -5,13 +5,34 @@ $(document).ready( function(){
     //painting or erasing
     var paint_erase="paint";
     //get the canvas and context
-    var canvas = document.getElementById("paint");
+    //var canvas = document.getElementById("paint");
+    var canvas = $("#paint")[0];
     var ctx = canvas.getContext("2d");
     //get the canvas container
     var container =$("#canvasContainer");
     //mouse position
     var mouse= {x:0, y:0};
-    
+
+    //resize the canvas
+    $(window).resize(saveResizeAndRedisplay);
+
+    //make painting and erasing on the canvas responsive
+    function saveResizeAndRedisplay(){
+
+        // save the canvas content as imageURL
+        var data=canvas.toDataURL();
+        //resize the canvas
+        canvas.width = $(container).width();
+        canvas.height = $(container).height();
+        //scale and redraw the canvas content
+        var imgResponsive=new Image();
+        imgResponsive.onload=function(){
+            ctx.drawImage(imgResponsive,0,0,imgResponsive.width,imgResponsive.height);
+        }
+        imgResponsive.src=data;
+    }    
+    saveResizeAndRedisplay();
+
     //load saved work from local storage
     if (localStorage.getItem("imgCanvas")!= null){
         var img = new Image();
