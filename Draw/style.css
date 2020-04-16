@@ -12,7 +12,7 @@ body{
     background: -o-linear-gradient(white, darkgreen);
     background: -ms-linear-gradient(white, darkgreen);
     height: 50px;
-    max-width: 500px;
+    max-width: 400px;
     margin: 20px auto;
     font-size: 1.7em;
     color: white;
@@ -35,7 +35,7 @@ body{
 }
 #slider{
     max-width: 200px;
-    margin: 35px auto 20px auto;
+    margin: 35px auto 30px auto;
     font-size: 15px;
 }
 #circle{
@@ -59,12 +59,13 @@ body{
 }
 /*canvas*/
 #canvasContainer{
-    max-width: 500px;
+    width: 400px;
     height: 400px;
     border: 2px solid rgba(0,100,0, 0.5);
     border-radius: 10px;
-    margin: 10px auto;
+    margin: 20px auto;
 }
+
 #paint{
     background-color: white;
     cursor: crosshair;
@@ -77,14 +78,14 @@ body{
 .btnInput{
     max-width:133px;
     color: darkgreen;
-    font-size: 1.3em;
+    font-size: 1em;
     font-weight: bold;
     display:inline-block;
-    margin: 10px;    
+    margin: 10px 5px 10px 5px;    
 }
 .button{
     background-color: white;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 10px;
     box-shadow: 0px 3px rgba(0,100,0, 0.6);
     -webkit-box-shadow: 0px 3px rgba(0,100,0, 0.6);
