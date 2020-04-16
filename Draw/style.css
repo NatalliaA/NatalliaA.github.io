@@ -12,7 +12,7 @@ body{
     background: -o-linear-gradient(white, darkgreen);
     background: -ms-linear-gradient(white, darkgreen);
     height: 50px;
-    max-width: 400px;
+    width: 300px;
     margin: 20px auto;
     font-size: 1.7em;
     color: white;
@@ -21,7 +21,7 @@ body{
 }
 /*input container*/
 .inputContainer{
-    max-width:200px;
+    width:200px;
     margin: 10px auto;
 }
 /*color input, line thickeness, slider */
@@ -30,11 +30,11 @@ body{
     font-size: 1.5em;
 }
 #paintColor{
-    max-width: 200px;
+    width: 200px;
     margin: 0 auto;
 }
 #slider{
-    max-width: 200px;
+    width: 200px;
     margin: 35px auto 30px auto;
     font-size: 15px;
 }
@@ -59,7 +59,7 @@ body{
 }
 /*canvas*/
 #canvasContainer{
-    width: 400px;
+    width: 350px;
     height: 400px;
     border: 2px solid rgba(0,100,0, 0.5);
     border-radius: 10px;
@@ -72,11 +72,10 @@ body{
 }
 /*buttons*/
 .btnContainer{
-    max-width: 399px;
     margin: 0 auto;
 }
 .btnInput{
-    max-width:133px;
+    /*    width:133px;*/
     color: darkgreen;
     font-size: 1em;
     font-weight: bold;
