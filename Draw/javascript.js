@@ -1,4 +1,4 @@
-$(function(){
+$(document).ready( function(){
 
     //paintingerasing or not
     var paint = false; 
@@ -11,7 +11,7 @@ $(function(){
     var container =$("#canvasContainer");
     //mouse position
     var mouse= {x:0, y:0};
-
+    
     //load saved work from local storage
     if (localStorage.getItem("imgCanvas")!= null){
         var img = new Image();
@@ -55,7 +55,6 @@ $(function(){
             ctx.lineTo(mouse.x, mouse.y);
             ctx.stroke();
         }
-
     });
 
     //mouse up-- not paintingerasing anymore
@@ -73,7 +72,8 @@ $(function(){
         //clear canvas
         ctx.clearRect(0,0, canvas.width, canvas.height);
         paint_erase="paint";
-        $("#erase").removeClass("eraseMode");    
+        $("#erase").removeClass("eraseMode");
+        $("#erase").text("Erase");
     });
 
     //click on the save button
@@ -93,9 +93,11 @@ $(function(){
     $("#erase").click(function(){
         if(paint_erase=="paint"){
             paint_erase="erase";
+            $(this).text("Paint");
         }
         else{
             paint_erase="paint";
+            $(this).text("Erase");
         }
         $(this).toggleClass("eraseMode");
     });
@@ -116,6 +118,5 @@ $(function(){
             //correspond to selected line thickeness
             ctx.lineWidth = ui.value;
         }
-    });
-
+    });  
 });
