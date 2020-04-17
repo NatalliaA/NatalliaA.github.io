@@ -260,11 +260,15 @@ a:hover .smallImage{
 .carousel-indicators{
     bottom: -3em;
 }
+.carousel-control-prev, .carousel-control-next{
+    margin-left: -2.5em;
+    margin-right: -2.5em;
+}
 .carousel-item img{
     border: 0.1em solid rgba(0,0,0,0.7);
     border-radius: 0 !important;
     padding: 0.6em;
-    width: 80% !important;
+    width: 90% !important;
 }
 #projectScreenshots{
     margin-bottom: 4em;
