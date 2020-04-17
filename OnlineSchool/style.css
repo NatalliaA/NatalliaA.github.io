@@ -244,7 +244,7 @@ a:hover .smallImage{
     }
     .country{       
         width: 70%;    
-        margin: 0.5em auto;
+        margin: 1em auto;
         height: 2em;
         line-height: 2em; 
         border-radius: 2%;
@@ -254,38 +254,38 @@ a:hover .smallImage{
         position: absolute;
         padding: 0.1em 0.2em;
         width: 5em;
-        top: 19%;
-        left: 80%;       
+        top: 21%;
+        left: 73%;       
     }
     #true{
         position: absolute;      
         padding: 0.1em 0.2em;
         width: 5em;
         top: 29%;
-        left: 80%;       
+        left: 73%;       
     }
     #wrong{
         position: absolute;       
         padding: 0.1em 0.2em;
         width: 5em;
         top: 29%;
-        left: 80%;       
+        left: 73%;       
     }
     .btncustom{
         width: 10em;
         height: 2.5em;
-        margin-bottom: 0.3em;
+        margin-bottom: 0.5em;
         font-size: 1em;
         padding: 0;
         font-family: sans-serif;
     }
     .btnstart{
-        margin-top: 0.5em;
+        margin-top: 1em;
         margin-bottom: 0; 
         padding: 0.2em 0.6em;
     }
     .btnexit{
-        margin-top: 0.5em;
+        margin-top: 1em;
         margin-bottom: 0;  
         padding: 0.2em 0.6em;
     }
