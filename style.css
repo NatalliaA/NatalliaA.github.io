@@ -261,8 +261,8 @@ a:hover .smallImage{
     bottom: -3em;
 }
 .carousel-control-prev, .carousel-control-next{
-    margin-left: -2.2em;
-    margin-right: -2.2em;
+    margin-left: -2.1em;
+    margin-right: -2.1em;
 }
 .carousel-item img{
     border: 0.1em solid rgba(0,0,0,0.7);
