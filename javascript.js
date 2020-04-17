@@ -33,7 +33,7 @@ $(function(){
         $("#russianproject").show(1000);
     });
 
-    //show only Tird-Party APIs projects
+    //show only Third-Party APIs projects
     $("#thirdpartybtn").click(function(){
         $(".projectImage").hide();
         $("#natureproject").show(1000);     
