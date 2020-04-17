@@ -86,16 +86,16 @@ a.link:hover{
     text-align: right;
 }
 label{
+    
     display: block;
     float: left;
-    /*    width: 60px;      */
-    text-align: center;   
+    /*    width: 60px;      */ 
+    width: 10%;
     padding-top: 7px;
     font-size: 16px;
 }
 #from, #to{
-    width: 80%;
-
+    width: 85%;
     padding: 7px;
     font-size: 16px;
 }
@@ -135,6 +135,7 @@ label{
 /*distance result*/
 #output{
     display:none;
+    text-align: left;
 }
 .danger{
     color: firebrick;
@@ -183,7 +184,10 @@ a:active .smallImage{
     .point{
         width: 100%;
         text-align: right;
-    }   
+    }  
+    label{
+        width: 10%;
+    }
     #from, #to{
         width: 85%;       
     }
