@@ -79,7 +79,7 @@ a{
 }
 #gameover{
     position:absolute;
-    background-color:#623983;
+    background-color:#0e3b85;
     color:white;
     height: 70%;
     width: 90%;
@@ -100,13 +100,12 @@ a{
 .country{
     color: white;
     width: 70%;    
-    margin: 1.5em auto;
+    margin: 1em auto;
     height: 3.5em;
     line-height: 3.5em;    
     background-color: #0b54a2;
     border-radius: 2%;
-    font-size: 2em;
-    font-family: sans-serif;
+    font-size: 2em;    
 }
 #scorenumber{
     background-color: #623983;
@@ -126,7 +125,7 @@ a{
     color: white;
     padding: 0.2em;
     width: 5em;
-    top: 21%;
+    top: 23%;
     left: 70%;
     z-index: 90;
     border-radius: 10%;
@@ -138,7 +137,7 @@ a{
     color: white;
     padding: 0.2em;
     width: 5em;
-    top:21%;
+    top:23%;
     left: 70%;
     z-index: 90;
     border-radius: 10%;
@@ -218,6 +217,78 @@ a:hover .smallImage{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+    /*quiz*/
+    .quiz-body{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    h3{
+        padding-top: 0; 
+        margin-top: 0;
+        margin-bottom: 0.5em;       
+    }
+    #gameover{
+        position:absolute;       
+        height: 63%;
+        width: 70%;
+        top: 20%;
+        left: 15%;
+        padding-top: 2em;         
+        font-size: 1.4em;
+    }
+    #gameover p{
+        margin-bottom: 1em;
+    }
+    #gameover span{
+        color: #7ceb37;
+    }
+    .country{       
+        width: 70%;    
+        margin: 0.5em auto;
+        height: 2em;
+        line-height: 2em; 
+        border-radius: 2%;
+        font-size: 1.6em;        
+    }
+    #scorenumber{        
+        position: absolute;
+        padding: 0.1em 0.2em;
+        width: 5em;
+        top: 19%;
+        left: 80%;       
+    }
+    #true{
+        position: absolute;      
+        padding: 0.1em 0.2em;
+        width: 5em;
+        top: 29%;
+        left: 80%;       
+    }
+    #wrong{
+        position: absolute;       
+        padding: 0.1em 0.2em;
+        width: 5em;
+        top: 29%;
+        left: 80%;       
+    }
+    .btncustom{
+        width: 10em;
+        height: 2.5em;
+        margin-bottom: 0.3em;
+        font-size: 1em;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    .btnstart{
+        margin-top: 0.5em;
+        margin-bottom: 0; 
+        padding: 0.2em 0.6em;
+    }
+    .btnexit{
+        margin-top: 0.5em;
+        margin-bottom: 0;  
+        padding: 0.2em 0.6em;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
