@@ -104,6 +104,12 @@ function startCountdown(){
             hide("wrong");
             playing=false;
             document.getElementById("start").innerHTML = "Start Game";
+            //clean answers and question
+             document.getElementById("problem").innerHTML = "";
+             document.getElementById("answer1").innerHTML = "";
+             document.getElementById("answer2").innerHTML = "";
+             document.getElementById("answer3").innerHTML = "";
+             document.getElementById("answer4").innerHTML = "";
         }
     },1000);
 }
@@ -124,8 +130,7 @@ function generateQA(){
     //storing answer choices;    
     var answers=[correctAnswer];
 
-    //to fill the other answer boxes with the wrong answers   
-
+    //to fill the other answer boxes with the wrong answers  
     //make sure to exclude the box with the right answer
     for (var i=1; i<5; i++)
     {if (i!==answerBox)
@@ -137,7 +142,6 @@ function generateQA(){
             wrongAnswer = (Math.round(Math.random()*10))*(Math.round(Math.random()*10));
         }            
         while(answers.indexOf(wrongAnswer)>-1)  //wrongAnswer is already in the answer list, we countinue do loop   
-
             document.getElementById("answer"+i).innerHTML=wrongAnswer;
         //adding wrong answer to answer choices
         answers.push(wrongAnswer);
