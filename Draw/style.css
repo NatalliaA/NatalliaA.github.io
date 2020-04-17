@@ -1,10 +1,13 @@
+html, body{
+    height: 100%;
+}
 *{
     text-align: center;
 }
 body{
     background-color: #d2e1cf;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 15px;      
 }
 /*title*/
 #header{
@@ -62,12 +65,11 @@ body{
 /*canvas*/
 #canvasContainer{
     max-width: 600px;
-    height: 58vh;
+    height: 55%;
     border: 2px solid rgba(0,100,0, 0.5);
     border-radius: 10px;
     margin: 20px auto;
 }
-
 #paint{
     background-color: white;
     cursor: crosshair;
