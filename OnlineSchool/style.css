@@ -216,11 +216,14 @@ a:hover .smallImage{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
+    body{
+        background-color: lawngreen;
+    }
     /*quiz*/
     .quiz-body{
         padding-top: 1em;
         padding-bottom: 1em;
+        position: relative;
     }
     h3{
         padding-top: 0; 
@@ -229,11 +232,11 @@ a:hover .smallImage{
     }
     #gameover{
         position:absolute;       
-        height: 65%;
-        width: 80%;
-        top: 20%;
-        left: 10%;
-        padding-top: 2em;         
+        height: 73%;
+        width: 90%;
+        top: 1em;
+        left: 5%;
+        padding-top: 2.5em;         
         font-size: 1.4em;
     }
     #gameover p{
@@ -254,21 +257,21 @@ a:hover .smallImage{
         position: absolute;
         padding: 0.1em 0.2em;
         width: 5em;
-        top: 21%;
+        top: 1em;
         left: 73%;       
     }
     #true{
         position: absolute;      
         padding: 0.1em 0.2em;
         width: 5em;
-        top: 29%;
+        top: 3.5em;
         left: 73%;       
     }
     #wrong{
         position: absolute;       
         padding: 0.1em 0.2em;
         width: 5em;
-        top: 29%;
+        top: 3.5em;
         left: 73%;       
     }
     .btncustom{
@@ -281,12 +284,12 @@ a:hover .smallImage{
     }
     .btnstart{
         margin-top: 1em;
-        margin-bottom: 0; 
+        margin-bottom: 1em; 
         padding: 0.2em 0.6em;
     }
     .btnexit{
         margin-top: 1em;
-        margin-bottom: 0;  
+        margin-bottom: 1em;  
         padding: 0.2em 0.6em;
     }
 }
