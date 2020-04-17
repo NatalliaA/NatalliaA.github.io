@@ -62,8 +62,7 @@ div.brandYosemite{
     padding: 0 5%;
 }
 .mainnav .home{
-    padding-right: 20px;
-    /*    float: right;*/
+    padding-right: 20px;   
 }
 .mainnav a{
     float: left;
@@ -93,8 +92,7 @@ div.brandYosemite{
 .mainnav a:hover, .dropdown:hover .dropbtn{
     color: rgba(0,0,0,0.7);
     cursor: pointer;  
-    font-weight: 600;
-    transform: translateY(3px);
+    font-weight: 600;   
 }
 .mainnav a:active{
     transform: translateY(4px);
@@ -179,11 +177,10 @@ p{
     opacity: 0.5;  
 }
 .imgbox>a>img:active{
-    transform: translateY(4px);
+    transform: translateY(3px);
 }
 .parkName:hover{
-    color: seagreen;
-    transform: translateY(3px);
+    color: seagreen;    
 }
 .parkName:active{
     transform: translateY(3px);
@@ -193,7 +190,7 @@ p{
     padding-bottom: 10px;
 }
 
-/*Social APIs*/
+/*social APIs*/
 .timeline{
     padding-top: 30px;    
 }
@@ -232,7 +229,8 @@ a:hover .smallImage{
     background-color: white;   
 }
 a:active .smallImage{
-    transform: translateY(4px);
+    color: 	rgba(0,0,0, 0.8);
+    background-color: white; 
 }
 
 /*footer*/
@@ -270,7 +268,6 @@ span{
 }
 
 .nplink:hover{
-    transform: translateY(3px);
     text-decoration-line: underline;
 }
 .nplink:active{
@@ -283,7 +280,7 @@ span{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     *{
-/*        letter-spacing: normal;*/
+        /*        letter-spacing: normal;*/
     }    
     div.brand{
         height: 300px;
