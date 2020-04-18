@@ -79,23 +79,21 @@ a.link:hover{
     padding-top: 30px;
     margin-bottom: 30px;  
 }
-.point{
-    /*    width:315px;*/
+.point{   
     width: 50%;   
     margin-bottom: 15px;
     text-align: right;
 }
 label{
-    
+
     display: block;
-    float: left;
-    /*    width: 60px;      */ 
+    float: left;   
     width: 10%;
     padding-top: 7px;
     font-size: 16px;
 }
 #from, #to{
-    width: 85%;
+    width: 80%;
     padding: 7px;
     font-size: 16px;
 }
@@ -109,9 +107,7 @@ label{
     color: white;
     padding:7px 10px;
     text-align: center;
-    border: none;
-    /*    width: 110px; */   
-    /*    margin-left: 205px;*/
+    border: none;  
     margin: 10px auto 0 auto;
 }
 #submit:hover{
