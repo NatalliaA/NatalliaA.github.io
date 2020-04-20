@@ -4,4 +4,7 @@ Natallia's Portfolio Web Developer
 
 <h2>Tools</h2>
 <p>HTML, CSS, Bootstrap, JavaScript, jQuery, Java, SQL, ASP.NET, C#, VB, third-party APIs.</p>
-<img src="Portfolio.PNG" width="500px">
+<img src="Portfolio2.PNG" width="400px">
+<img src="Portfolio.PNG" width="400px">
+<img src="Portfolio3.PNG" width="400px">
+<img src="Portfolio4.PNG" width="400px">
