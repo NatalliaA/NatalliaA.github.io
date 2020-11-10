@@ -35,13 +35,13 @@ nav li a:hover, nav li a.active, .navbar-brand:hover{
     color: white !important;    
 }
 nav a{
-    margin-left: 1em;
-    margin-right: 1em;    
+    margin-left: 0.5em;
+    margin-right: 0.5em;    
 }
 .navbar-brand{
     font-size: 1em;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 0.5em;
+    margin-right: 1em;
     text-align: center;
     color: rgba(255,255,255,0.8) !important;
 }
