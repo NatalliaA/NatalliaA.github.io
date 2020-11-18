@@ -56,6 +56,12 @@ $(function(){
         $(".projectImage").hide();      
         $("#russianproject").show(1000);
     });
+    
+  //show only UX projects
+    $("#uxbtn").click(function(){
+        $(".projectImage").hide();      
+        $("#russianproject").show(1000);
+    });
 
     //open CV
     $("#openCV").click(function(){
