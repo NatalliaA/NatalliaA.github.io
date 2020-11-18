@@ -24,6 +24,8 @@ $(function(){
         $("#multiplicationproject").show(1000);
         $("#drawingproject").show(1000);        
         $("#russianproject").show(1000);
+        $("#weseeartproject").show(1000);
+        $("#weseenatureproject").show(1000);
     });
 
     //show only Bootstrap projects
@@ -31,6 +33,14 @@ $(function(){
         $(".projectImage").hide();
         $("#schoolproject").show(1000);       
         $("#russianproject").show(1000);
+        $("#weseeartproject").show(1000);
+        $("#weseenatureproject").show(1000);
+    });
+      //show only Node.js projects
+      $("#nodejsbtn").click(function(){
+        $(".projectImage").hide();       
+        $("#weseeartproject").show(1000);
+        $("#weseenatureproject").show(1000);
     });
 
     //show only Third-Party APIs projects
