@@ -204,7 +204,7 @@ img{
 }
 
 /*Email Icon*/
-.smallImage{
+.media-icon-contact{
     font-size: 1.5em;  
     color: white;
     margin-left:0.5em;
@@ -212,7 +212,7 @@ img{
     border-radius: 60%;
     padding: 0.3em;    
 }
-a:hover .smallImage{
+a:hover .media-icon-contact{
     color: 	#0e3b85;
     background-color: white;
 }

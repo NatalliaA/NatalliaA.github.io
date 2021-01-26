@@ -6,7 +6,7 @@ html
     height:100%;
     background-color:#dde2e3;
 }
-.gametitle{
+.gametitle-section{
     text-align: center;
     font-size: 30px;
     color: #2c2e9a;
@@ -195,7 +195,7 @@ html
     html{
        height: 100%;        
     }
-    .gametitle{        
+    .gametitle-section{        
         font-size: 26px;        
         margin-top: 50px;
     }

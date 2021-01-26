@@ -136,7 +136,7 @@ h2{
     margin-top: 60px;
     margin-bottom: 40px;
 }
-#title{
+#title-section{
     margin-bottom: 40px;
 }
 p{
@@ -216,7 +216,7 @@ p{
     font-size: 20px;   
 }
 /*icons social media*/
-.smallImage{
+.media-icon-contact{
     font-size: 30px;  
     color: white;
     margin: 10px;    
@@ -224,11 +224,11 @@ p{
     border-radius: 60%;
     padding: 10px;  
 }
-a:hover .smallImage{
+a:hover .media-icon-contact{
     color: 	rgba(0,0,0, 0.8);
     background-color: white;   
 }
-a:active .smallImage{
+a:active .media-icon-contact{
     color: 	rgba(0,0,0, 0.8);
     background-color: white; 
 }

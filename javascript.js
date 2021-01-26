@@ -6,19 +6,19 @@ $(function () {
 
     //show all projects
     $("#allbtn").click(function () {
-        $(".projectOuterBox").hide().show(1000);
+        $(".project-outer-box").hide().show(1000);
     });
 
     //show only jQuery projects
     $("#jquerybtn").click(function () {
-        $(".projectOuterBox").hide();
+        $(".project-outer-box").hide();
         $("#schoolproject").show(1000);
         $("#drawingproject").show(1000);
     });
 
     //show only JavaScript projects
     $("#jsbtn").click(function () {
-        $(".projectOuterBox").hide();
+        $(".project-outer-box").hide();
         $("#natureproject").show(1000);
         $("#citiesproject").show(1000);
         $("#multiplicationproject").show(1000);
@@ -30,7 +30,7 @@ $(function () {
 
     //show only CSS Grid projects
     $("#cssgridbtn").click(function () {
-        $(".projectOuterBox").hide();
+        $(".project-outer-box").hide();
         $("#natureproject").show(1000);
         $("#shakesproject").show(1000);
         $("#citiesproject").show(1000);
@@ -38,7 +38,7 @@ $(function () {
 
     //show only Bootstrap projects
     $("#bootstrapbtn").click(function () {
-        $(".projectOuterBox").hide();
+        $(".project-outer-box").hide();
         $("#schoolproject").show(1000);
         $("#russianproject").show(1000);
         $("#weseeartproject").show(1000);
@@ -46,19 +46,19 @@ $(function () {
 
     //show only React.js projects
     $("#reactbtn").click(function () {
-        $(".projectOuterBox").hide();
+        $(".project-outer-box").hide();
         $("#shakesproject").show(1000);
     });
 
     //show only Node.js projects
     $("#nodejsbtn").click(function () {
-        $(".projectOuterBox").hide();
+        $(".project-outer-box").hide();
         $("#weseeartproject").show(1000);
     });
 
     //show only Third-Party APIs projects
     $("#thirdpartybtn").click(function () {
-        $(".projectOuterBox").hide();
+        $(".project-outer-box").hide();
         $("#natureproject").show(1000);
         $("#citiesproject").show(1000);
         $("#russianproject").show(1000);
@@ -67,7 +67,7 @@ $(function () {
 
     //show only ASP.NET projects
     $("#aspnetbtn").click(function () {
-        $(".projectOuterBox").hide();
+        $(".project-outer-box").hide();
         $("#russianproject").show(1000);
     }); 
    

@@ -6,31 +6,10 @@ body {
     position: relative;
 }
 
-/*Jumbotron*/
-
-.jumbotron {
-    margin-bottom: 0;
-    margin-top: 0;
-    background-color: #179b9f;
-    color: white;
-    border-radius: 0;
-    padding-top: 4.5em;
-    padding-bottom: 3.5em;
-}
-
-#frontend {
-    margin-bottom: 1em;
-}
-
-.jumbotron p {
-    font-size: 1.3em;
-}
-
 /*Navigation Bar*/
 
 .navbar {
-    padding-bottom: 0px;
-    padding-top: 0px;
+    padding: 0.7em 2em;    
 }
 
 nav li a {
@@ -55,14 +34,14 @@ nav a {
     color: rgba(255, 255, 255, 0.8) !important;
 }
 
-.smallImageWhite {
+.media-icon-navbar {
     font-size: 1.7em;
     margin-left: 0;
     margin-right: 0;
     color: rgba(255, 255, 255, 0.7);
 }
 
-a:hover .smallImageWhite {
+a:hover .media-icon-navbar {
     color: rgba(255, 255, 255, 1);
 }
 
@@ -71,19 +50,39 @@ a:hover .smallImageWhite {
     border: 0.1em solid rgba(255, 255, 255, 0.7);
 }
 
+/*Jumbotron*/
+
+.jumbotron {
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color: #179b9f;
+    color: white;
+    border-radius: 0;
+    padding-top: 4.5em;
+    padding-bottom: 3.5em;
+}
+
+#my-logo-navbar {
+    margin-bottom: 1em;
+}
+
+.jumbotron p {
+    font-size: 1.3em;
+}
+
 /*Sections*/
 
-.title {
+.title-section {
     padding-top: 5em;
     padding-bottom: 3em;
 }
 
-.sectionBackground {
-    padding: 1em 1.5em 5em 1.5em;
+.section-box {
+    padding: 1em 1.5em 5em 1.5em;    
 }
 
-.rowBox {
-    background-color: rgba(255, 255, 255, 0.8);
+.section-devider {
+    background-color: rgba(255, 255, 255, 0.8);    
 }
 
 /*Section: About*/
@@ -92,23 +91,23 @@ a:hover .smallImageWhite {
     color: rgb(52, 58, 64);
 }
 
-#Natallia {
+#introduction-img {
     border-radius: 50%;
     height: 14em;
     width: 12.5em;
     margin-bottom: 2em;
 }
 
-#introduction {
+#introduction-text {
     font-size: 1.1em;
     color: rgb(52, 58, 64);
-    text-align: justify;
+    text-align: justify;    
 }
 
-.skillsBox {
+.skills-box {
     padding-top: 0.5em;
     font-size: 1.1em;
-    color: rgb(52, 58, 64);
+    color: rgb(52, 58, 64);    
 }
 
 p.tools {
@@ -142,13 +141,13 @@ p.tools {
     transform: translateY(0.1em);
 }
 
-.tagclicked {
+.tag-clicked {
     margin-bottom: 1em;
 }
 
 /*Change background color of clicked tag and animate*/
 
-.tagclicked:focus {
+.tag-clicked:focus {
     background-color: rgba(52, 58, 64, 1);
     color: white;
     box-shadow: none;
@@ -156,12 +155,12 @@ p.tools {
 
 /* Project container */
 
-.projectOuterBox {   
+.project-outer-box {   
     padding: 1em;
-    margin-top: 2em;    
+    margin-top: 2em;      
 }
 
-.projectInnerBox {
+.project-inner-box {
     background-color: #179b9f;
     position: relative;
     padding: 0 1.5em 1.5em 1.5em;
@@ -170,19 +169,19 @@ p.tools {
 
 /*Project name and technology */
 
-.projectName {
+.project-name {
     padding: 1em;
     margin: 0;
     color: white;
     font-size: 1.2em;    
 }
 
-.projectImgWrap {
+.project-img-box {
     padding: 0;
     margin: 0;   
 }
 
-.projectImgWrap:hover {
+.project-img-box:hover {
     opacity: 0.5;
 }
 
@@ -195,7 +194,7 @@ p.tools {
     box-shadow: none;
 }
 
-.btnViewProject:focus {
+.btnproject-page-buttons-box:focus {
     box-shadow: none;
 }
 
@@ -218,7 +217,7 @@ p.tools {
 
 /*Icons social media*/
 
-.smallImage {
+.media-icon-contact {
     font-size: 2em;
     color: white;
     margin: 0 0.2em 0.2em 0.2em;
@@ -227,7 +226,7 @@ p.tools {
     padding: 0.3em;
 }
 
-a:hover .smallImage {
+a:hover .media-icon-contact {
     color: #179b9f;
     background-color: white;
 }
@@ -242,18 +241,19 @@ a:hover .smallImage {
 
 /*Project Details Page*/
 
-#projectDetails {
+#project-page-box {
     color: rgb(52, 58, 64);
+    border: 2px purple solid; 
 }
 
-.projectDetails {
+.project-page-details {
     color: rgb(52, 58, 64);
-    text-align: left;
+    text-align: left;     
 }
 
 /*Carousel*/
 
-#projectCarousel {
+#project-page-carousel {
     position: relative;
     margin-left: 0;
     margin-right: 0;
@@ -282,7 +282,7 @@ a:hover .smallImage {
     width: 90% !important;
 }
 
-#projectScreenshots {
+#project-screenshots {
     margin-bottom: 4em;
     padding-left: 0;
     padding-right: 0;
@@ -290,10 +290,6 @@ a:hover .smallImage {
 
 /*Buttons for view live/code on project details page */
 
-.viewProject {
+.project-page-buttons-box {
     margin-top: 2em;
-}
-
-.viewcode {
-    font-size: 1.3em;
 }
