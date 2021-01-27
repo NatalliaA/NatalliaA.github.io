@@ -82,7 +82,7 @@ a:hover .media-icon-navbar {
 }
 
 .section-devider {
-    background-color: rgba(255, 255, 255, 0.8);    
+    background-color: rgba(255, 255, 255, 0.7);    
 }
 
 /*Section: About*/
@@ -161,7 +161,7 @@ p.tools {
 }
 
 .project-inner-box {
-    background-color: rgba(52, 58, 64, 0.7);
+    background-color: rgba(234, 238, 241, 0.979);
     position: relative;
     padding: 0 1.5em 1.5em 1.5em;
     box-shadow: 0.2em 0.3em 0.3em rgba(52, 58, 64, 0.3);
@@ -172,7 +172,7 @@ p.tools {
 .project-name {
     padding: 1em;
     margin: 0;
-    color: white;
+    color: rgb(52, 58, 64);
     font-size: 1.2em;    
 }
 
