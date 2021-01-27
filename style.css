@@ -9,7 +9,7 @@ body {
 /*Navigation Bar*/
 
 .navbar {
-    padding: 0.7em 2em;      
+    padding: 0.7em 2em;       
 }
 
 nav li a {
@@ -17,21 +17,13 @@ nav li a {
     color: rgba(255, 255, 255, 0.6) !important;
 }
 
-nav li a:hover, nav li a.active, .navbar-brand:hover {
+nav li a:hover, nav li a.active {
     color: white !important;
 }
 
 nav a {
     margin-left: 0.5em;
     margin-right: 0.5em;
-}
-
-.navbar-brand {
-    font-size: 1em;
-    margin-left: 0.5em;
-    margin-right: 1em;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .media-icon-navbar {
@@ -71,6 +63,10 @@ a:hover .media-icon-navbar {
 }
 
 /*Sections*/
+
+.my-name{
+    color: #179b9f;
+}
 
 .title-section {
     padding-top: 5em;
