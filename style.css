@@ -9,7 +9,7 @@ body {
 /*Navigation Bar*/
 
 .navbar {
-    padding: 0.7em 2em;      
+    padding: 0.7em 2em;
     /* background-color: rgba(52, 58, 64, 0.9) !important;  */
 }
 
@@ -65,7 +65,7 @@ a:hover .media-icon-navbar {
 
 /*Sections*/
 
-.my-name{
+.my-name {
     color: #179b9f;
 }
 
@@ -75,11 +75,11 @@ a:hover .media-icon-navbar {
 }
 
 .section-box {
-    padding: 1em 1.5em 5em 1.5em;    
+    padding: 1em 1.5em 5em 1.5em;
 }
 
 .section-devider {
-    background-color: rgba(255, 255, 255, 0.7);    
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 /*Section: About*/
@@ -95,7 +95,7 @@ a:hover .media-icon-navbar {
     margin-bottom: 2em;
 } */
 
-#introduction-img {    
+#introduction-img {
     height: 35vh;
     width: auto;
     margin-bottom: 2em;
@@ -105,13 +105,13 @@ a:hover .media-icon-navbar {
 #introduction-text {
     font-size: 1.1em;
     color: rgb(52, 58, 64);
-    text-align: justify;    
+    text-align: justify;
 }
 
 .skills-box {
     padding-top: 0.5em;
     font-size: 1.1em;
-    color: rgb(52, 58, 64);    
+    color: rgb(52, 58, 64);
 }
 
 p.tools {
@@ -124,14 +124,14 @@ p.tools {
     color: rgb(52, 58, 64);
     border-top: 1px solid rgba(65, 105, 225, 0.2);
     border-bottom: 1px solid rgba(65, 105, 225, 0.2);
-} 
+}
 
 /* Button Tags */
 
 .btn {
     border: none;
     background-color: white;
-    border: 0.1em solid rgba(52, 58, 64, 0.5);
+    border: 0.1em solid rgba(52, 58, 64, 0.4);
     color: rgb(52, 58, 64);
     border-radius: 0;
     margin-left: 0.1em;
@@ -164,9 +164,9 @@ p.tools {
 
 /* Project container */
 
-.project-outer-box {   
+.project-outer-box {
     padding: 1em;
-    margin-top: 2em;      
+    margin-top: 2em;
 }
 
 .project-inner-box {
@@ -182,19 +182,19 @@ p.tools {
     padding: 1em;
     margin: 0;
     color: rgb(52, 58, 64);
-    font-size: 1.3em;    
+    font-size: 1.3em;
 }
 
-.project-technology{
+.project-technology {
     padding: 1em;
     margin: 0;
     color: rgb(52, 58, 64);
-    font-size: 1em;   
+    font-size: 1em;
 }
 
 .project-img-box {
     padding: 0;
-    margin: 0;   
+    margin: 0;
 }
 
 .project-img-box:hover {
@@ -215,29 +215,35 @@ p.tools {
 }
 
 /* More projects available at */
-.media-icon-more{
+
+.media-icon-more {
     font-size: 2em;
     margin-left: 0;
     margin-right: 0;
     color: rgba(0, 0, 0, 0.7);
 }
-.media-icon-more:hover{
+
+.media-icon-more:hover {
     color: rgba(0, 0, 0, 0.9);
 }
-.more-projects{
+
+.more-projects {
     font-size: 1.3em;
     margin-top: 2em;
 }
-.viewcode{
+
+.viewcode {
     font-size: 1.3em;
 }
 
 /* Modal window for project details */
-.modal-header{
-    padding-bottom: 0;    
+
+.modal-header {
+    padding-bottom: 0;
     color: #179b9f;
 }
-.modal-project-desription{    
+
+.modal-project-desription {
     margin-top: 0.3em;
     font-size: 0.8em;
     color: black;
@@ -287,12 +293,12 @@ a:hover .media-icon-contact {
 /*Project Details Page*/
 
 #project-page-box {
-    color: rgb(52, 58, 64);   
+    color: rgb(52, 58, 64);
 }
 
 .project-page-details {
     color: rgb(52, 58, 64);
-    text-align: left;     
+    text-align: left;
 }
 
 /*Carousel*/
