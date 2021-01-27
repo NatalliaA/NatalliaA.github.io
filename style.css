@@ -165,7 +165,7 @@ p.tools {
 }
 
 .project-inner-box {
-    background-color: rgba(234, 238, 241, 0.979);
+    background-color: rgba(234, 238, 241, 1);
     position: relative;
     padding: 0 1.5em 1.5em 1.5em;
     box-shadow: 0.3em 0.4em 0.4em rgba(52, 58, 64, 0.3);
