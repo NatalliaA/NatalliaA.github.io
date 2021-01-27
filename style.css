@@ -198,6 +198,21 @@ p.tools {
     box-shadow: none;
 }
 
+/* More projects available at */
+.media-icon-more{
+    font-size: 2em;
+    margin-left: 0;
+    margin-right: 0;
+    color: rgba(0, 0, 0, 0.7);
+}
+.media-icon-more:hover{
+    color: rgba(0, 0, 0, 0.9);
+}
+.more-projects{
+    font-size: 1.3em;
+    margin-top: 2em;
+}
+
 /*Section: Contact*/
 
 #contact {
