@@ -177,7 +177,14 @@ p.tools {
     padding: 1em;
     margin: 0;
     color: rgb(52, 58, 64);
-    font-size: 1.2em;    
+    font-size: 1.3em;    
+}
+
+.project-technology{
+    padding: 1em;
+    margin: 0;
+    color: rgb(52, 58, 64);
+    font-size: 1em;   
 }
 
 .project-img-box {
