@@ -88,11 +88,18 @@ a:hover .media-icon-navbar {
     color: rgb(52, 58, 64);
 }
 
-#introduction-img {
+/* #introduction-img {
     border-radius: 50%;
     height: 14em;
     width: 12.5em;
     margin-bottom: 2em;
+} */
+
+#introduction-img {    
+    height: 40vh;
+    width: auto;
+    margin-bottom: 2em;
+    box-shadow: 0.3em 0.4em 0.4em rgba(52, 58, 64, 0.3);
 }
 
 #introduction-text {
@@ -161,7 +168,7 @@ p.tools {
     background-color: rgba(234, 238, 241, 0.979);
     position: relative;
     padding: 0 1.5em 1.5em 1.5em;
-    box-shadow: 0.2em 0.3em 0.3em rgba(52, 58, 64, 0.3);
+    box-shadow: 0.3em 0.4em 0.4em rgba(52, 58, 64, 0.3);
 }
 
 /*Project name and technology */
