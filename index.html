@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 
 <head>
     <!-- Meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Web Developer Portfolio of Natallia Akulenka">
-    <meta name="keywords" content="Natallia Akulenka, developer, front-end, back-end, full stack, responsive, design, portfolio">
+    <meta name="keywords"
+        content="Natallia Akulenka, developer, front-end, back-end, full stack, responsive, design, portfolio">
     <meta name="author" content="Natallia Akulenka">
 
     <!-- From Google Verification -->
@@ -33,7 +34,7 @@
     <!--Menu-->
     <nav role="navigation" class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
 
-        <!--Social Media-->    
+        <!--Social Media-->
         <a href="http://linkedin.com/in/natallia-akulenka" target="_blank">
             <i class="fa fa-linkedin media-icon-navbar"></i>
         </a>
@@ -57,10 +58,10 @@
                     <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="cv-natallia-akulenka.pdf" target="_blank">CV</a>
+                    <a class="nav-link" href="cv-natallia-akulenka.pdf" target="_blank">Resume</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="msc-thesis-natallia-akulenka.pdf" target="_blank">Report</a>
+                    <a class="nav-link" href="msc-thesis-natallia-akulenka.pdf" target="_blank">MS Thesis</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
@@ -126,9 +127,9 @@
                     <button id="jsbtn" class="btn tag-clicked" type="button">JavaScript</button>
                     <button id="jquerybtn" class="btn tag-clicked" type="button">jQuery</button>
                     <button id="reactbtn" class="btn tag-clicked" type="button">React.js</button>
-                    <button id="nodejsbtn" class="btn tag-clicked" type="button">Node.js</button> 
+                    <button id="nodejsbtn" class="btn tag-clicked" type="button">Node.js</button>
                     <button id="thirdpartybtn" class="btn tag-clicked" type="button">REST APIs</button>
-                    <button id="aspnetbtn" class="btn tag-clicked" type="button">ASP.NET</button>                    
+                    <button id="aspnetbtn" class="btn tag-clicked" type="button">ASP.NET</button>
                 </div>
 
                 <!--Projects' Containers-->
@@ -139,14 +140,50 @@
                         <div class="project-inner-box">
                             <p class="project-name">Nature in California</p>
                             <div class="project-img-box">
-                               <a href="nature/index.html" target="_blank">
-                                <img class="img-fluid" alt="Project" src="images/npscreen2.PNG">
+                                <a href="nature/index.html" target="_blank">
+                                    <img class="img-fluid" alt="Project" src="images/npscreen2.PNG">
                                 </a>
-                            </div>                            
-                            <!--Technology--> 
-                                <p class="project-technology">HTML5, CSS Grid, JavaScript, REST APIs</p>
-                                <a class="btn" href="NatureInCA/index.html" target="_blank">View Live</a>
-                                <a class="btn" href="natureincaProject.html">View Details</a> 
+                            </div>
+                            <!--Technology-->
+                            <p class="project-technology">HTML5, CSS Grid, JavaScript, REST APIs</p>
+                            <a class="btn" href="nature/index.html" target="_blank">Demo</a>
+                            <a class="btn btnproject-page-buttons-box"
+                                href="https://github.com/NatalliaA/nature-california" target="_blank">Code <i
+                                    class="fa fa-github viewcode"></i></a>
+
+                            <!-- Modal to show project details -->
+                            <a class="btn" data-toggle="modal" data-target="#natureModalCenter">Details</a>
+                            
+                            <div class="modal fade" id="natureModalCenter" tabindex="-1" role="dialog"
+                                aria-labelledby="natureModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-left">
+                                            <h5 class="modal-title" id="natureModalLongTitle">Nature in California
+                                                <p class="modal-project-desription">Responsive photo gallery website of
+                                                    national parks</p></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body text-left">
+                                            <ul>
+                                                <li>A user can select a park page from the navigation bar or from the
+                                                    photo gallery.</li>
+                                                <li>The responsive layout of the photo gallery is achieved with the CSS
+                                                    Grid.</li>
+                                                <li>Embeded maps display labels and locations of the parks programmed
+                                                    with Google Maps API.
+                                                </li>
+                                                <li>Like and Share buttons are intergeated with Facebook API.</li>
+                                                <li>The Tweet button and a timeline with updates of the NPS is included
+                                                    with Twitter API.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
 
@@ -156,13 +193,36 @@
                             <p class="project-name">Lesson with Quiz</p>
                             <div class="project-img-box">
                                 <a href="school/index.html" target="_blank">
-                                <img class="img-fluid" alt="Project" src="images/schoolscreen3.png">
+                                    <img class="img-fluid" alt="Project" src="images/schoolscreen3.png">
                                 </a>
-                            </div>                            
-                            <!--Technology-->                            
-                                <p class="project-technology">HTML5, CSS3, Bootstrap, jQuery</p>
-                                <a class="btn" href="school/index.html" target="_blank">View Live</a>
-                                <a class="btn" href="onlineschoolProject.html">View Details</a>                            
+                            </div>
+                            <!--Technology-->
+                            <p class="project-technology">HTML5, CSS3, Bootstrap, jQuery</p>
+                            <a class="btn" href="school/index.html" target="_blank">Demo</a>
+                            <a class="btn" href="https://github.com/NatalliaA/online-school-jsquiz"
+                            target="_blank">Code <i class="fa fa-github viewcode"></i></a>
+
+                           <!-- Modal to show project details -->
+                            <a class="btn" data-toggle="modal" data-target="#lessonModalCenter">Details</a>
+                            
+                            <div class="modal fade" id="lessonModalCenter" tabindex="-1" role="dialog"
+                                aria-labelledby="lessonModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-left">
+                                            <h5 class="modal-title" id="lessonModalLongTitle">Lesson with Quiz
+                                                <p class="modal-project-desription">
+                                                    Online multimedia lesson with photos | video | text | quiz</p></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body text-left">
+                                            <p>Description is in progress ...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -172,15 +232,35 @@
                             <p class="project-name">Milkshakes</p>
                             <div class="project-img-box">
                                 <a href="https://natalliaa.github.io/shakes-react/" target="_blank">
-                                <img class="img-fluid" alt="project" src="images/shakes1.png">
+                                    <img class="img-fluid" alt="project" src="images/shakes1.png">
                                 </a>
-                            </div>                            
-                            <!--Technology-->                            
-                                <p class="project-technology">HTML5, CSS3, CSS Grid, React.js, REST API</p>
-                                <a class="btn" href="https://natalliaa.github.io/shakes-react/"
-                                    target="_blank">View Live</i></a>
-                                <a class="btn" href="https://github.com/NatalliaA/shakes-react"
-                                    target="_blank">View Code <i class="fa fa-github viewcode"></i></a>
+                            </div>
+                            <!--Technology-->
+                            <p class="project-technology">HTML5, CSS3, CSS Grid, React.js, REST API</p>
+                            <a class="btn" href="https://natalliaa.github.io/shakes-react/" target="_blank">Demo</i></a>
+                            <a class="btn" href="https://github.com/NatalliaA/shakes-react" target="_blank">Code <i
+                                    class="fa fa-github viewcode"></i></a>
+                            
+                            <!-- Modal to show project details -->
+                            <a class="btn" data-toggle="modal" data-target="#shakesModalCenter">Details</a>
+                            
+                            <div class="modal fade" id="shakesModalCenter" tabindex="-1" role="dialog"
+                                aria-labelledby="shakesModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-left">
+                                            <h5 class="modal-title" id="shakesModalLongTitle">Milkshakes
+                                                <p class="modal-project-desription">Responsive SPA with a search option for milkshakes</p></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body text-left">
+                                            <p>Description is in progress ...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -190,15 +270,34 @@
                             <p class="project-name">WeSeeArt</p>
                             <div class="project-img-box">
                                 <a href="https://streetart-boulder.herokuapp.com/" target="_blank">
-                                <img class="img-fluid" alt="project" src="images/art1.png">
+                                    <img class="img-fluid" alt="project" src="images/art1.png">
                                 </a>
-                            </div>                           
-                            <!--Technology-->                           
-                                <p class="project-technology">HTML5, CSS3, Node.js, Express.js, MongoDB, Bootstrap</p>
-                                <a class="btn" href="https://streetart-boulder.herokuapp.com/"
-                                target="_blank">View Live</i></a>
-                                <a class="btn" href="https://github.com/NatalliaA/art-network-node"
-                                    target="_blank">View Code <i class="fa fa-github viewcode"></i></a>
+                            </div>
+                            <!--Technology-->
+                            <p class="project-technology">HTML5, CSS3, Node.js, Express.js, MongoDB, Bootstrap</p>
+                            <a class="btn" href="https://streetart-boulder.herokuapp.com/" target="_blank">Demo</i></a>
+                            <a class="btn" href="https://github.com/NatalliaA/art-network-node" target="_blank">Code <i class="fa fa-github viewcode"></i></a>
+
+                            <!-- Modal to show project details -->
+                            <a class="btn" data-toggle="modal" data-target="#artModalCenter">Details</a>
+                            
+                            <div class="modal fade" id="artModalCenter" tabindex="-1" role="dialog"
+                                aria-labelledby="artModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-left">
+                                            <h5 class="modal-title" id="artModalLongTitle">WeSeeArt
+                                                <p class="modal-project-desription">Responsive website with user-generated posts | comments about street art</p></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body text-left">
+                                            <p>Description is in progress ...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -208,13 +307,35 @@
                             <p class="project-name">Travel &amp; Learn</p>
                             <div class="project-img-box">
                                 <a href="cities/index.html" target="_blank">
-                                <img class="img-fluid" alt="Project" src="images/citiesscreen1.png">
+                                    <img class="img-fluid" alt="Project" src="images/citiesscreen1.png">
                                 </a>
-                            </div>                            
-                            <!--Technology-->                           
-                                <p class="project-technology">HTML5, CSS Grid, JavaScript, Google Maps API</p>
-                                <a class="btn" href="cities/index.html" target="_blank">View Live</a>
-                                <a class="btn" href="topcitiesProject.html">View Details</a>
+                            </div>
+                            <!--Technology-->
+                            <p class="project-technology">HTML5, CSS Grid, JavaScript, Google Maps API</p>
+                            <a class="btn" href="cities/index.html" target="_blank">Demo</a>
+                            <a class="btn" href="https://github.com/NatalliaA/top-us-cities"
+                            target="_blank">Code <i class="fa fa-github viewcode"></i></a>
+                            
+                            <!-- Modal to show project details -->
+                            <a class="btn" data-toggle="modal" data-target="#citiesModalCenter">Details</a>
+                            
+                            <div class="modal fade" id="citiesModalCenter" tabindex="-1" role="dialog"
+                                aria-labelledby="citiesModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-left">
+                                            <h5 class="modal-title" id="citiesModalLongTitle">Travel &amp; Learn
+                                                <p class="modal-project-desription">Responsive webpage with photos | map | distance calculator</p></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body text-left">
+                                            <p>Description is in progress ...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -223,14 +344,39 @@
                         <div class="project-inner-box">
                             <p class="project-name">Russian for Kids</p>
                             <div class="project-img-box">
-                                <a href="russianforkidsProject.html" target="_blank">
-                                <img class="img-fluid" alt="project" src="images/russianscreen4.png">
+                                <a href="https://github.com/NatalliaA/russian-kids-asp" target="_blank">
+                                    <img class="img-fluid" alt="project" src="images/russianscreen4.png">
                                 </a>
-                            </div>                            
+                            </div>
                             <!--Technology-->
                             <div class="projectTechnology">
                                 <p class="project-technology">Bootstrap, ASP.NET, VB, JavaScript, SQL, REST APIs</p>
-                                <a class="btn" href="russianforkidsProject.html">View Details</a>
+                                <a class="btn" href="msc-thesis-natallia-akulenka.pdf"
+                                target="_blank">MS Thesis</a>
+                                <a class="btn" href="https://github.com/NatalliaA/russian-kids-asp"
+                            target="_blank">Code <i class="fa fa-github viewcode"></i></a>
+                                
+                            <!-- Modal to show project details -->
+                            <a class="btn" data-toggle="modal" data-target="#russianModalCenter">Details</a>
+                            
+                            <div class="modal fade" id="russianModalCenter" tabindex="-1" role="dialog"
+                                aria-labelledby="russianModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-left">
+                                            <h5 class="modal-title" id="russianModalLongTitle">Russian for Kids
+                                                <p class="modal-project-desription">
+                                                    MS course project: Designing a language learning web application for children</p></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body text-left">
+                                            <p>Description is in progress ...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             </div>
                         </div>
                     </div>
@@ -241,13 +387,35 @@
                             <p class="project-name">Multiplication Game</p>
                             <div class="project-img-box">
                                 <a href="multiplication/index.html" target="_blank">
-                                <img class="img-fluid" alt="project" src="images/multiplicationscreen1.png">
+                                    <img class="img-fluid" alt="project" src="images/multiplicationscreen1.png">
                                 </a>
-                            </div>                            
-                            <!--Technology-->                            
-                                <p class="project-technology">HTML5, CSS3, JavaScript</p>
-                                <a class="btn" href="multiplication/index.html" target="_blank">View Live</a>
-                                <a class="btn" href="multiplicationProject.html">View Details</a>                            
+                            </div>
+                            <!--Technology-->
+                            <p class="project-technology">HTML5, CSS3, JavaScript</p>
+                            <a class="btn" href="multiplication/index.html" target="_blank">Demo</a>
+                            <a class="btn" href="https://github.com/NatalliaA/multiplication-game"
+                            target="_blank">Code <i class="fa fa-github viewcode"></i>
+                            
+                            <!-- Modal to show project details -->
+                            <a class="btn" data-toggle="modal" data-target="#multiplicationModalCenter">Details</a>
+                            
+                            <div class="modal fade" id="multiplicationModalCenter" tabindex="-1" role="dialog"
+                                aria-labelledby="multiplicationModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-left">
+                                            <h5 class="modal-title" id="multiplicationModalLongTitle">Multiplication Game
+                                                <p class="modal-project-desription">Interactive application</p></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body text-left">
+                                            <p>Description is in progress ...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -257,20 +425,42 @@
                             <p class="project-name">Drawing Tool</p>
                             <div class="project-img-box">
                                 <a href="draw/index.html" target="_blank">
-                                <img class="img-fluid" alt="project" src="images/drawscreen1.png">
+                                    <img class="img-fluid" alt="project" src="images/drawscreen1.png">
                                 </a>
-                            </div>                            
-                            <!--Technology-->                            
-                                <p class="project-technology">HTML Canvas, CSS3, JavaScript, jQuery</p>
-                                <a class="btn" href="draw/index.html" target="_blank">View Live</a>
-                                <a class="btn" href="drawProject.html">View Details</a>
+                            </div>
+                            <!--Technology-->
+                            <p class="project-technology">HTML Canvas, CSS3, JavaScript, jQuery</p>
+                            <a class="btn" href="draw/index.html" target="_blank">Demo</a>
+                            <a class="btn" href="https://github.com/NatalliaA/drawing-game-js"
+                            target="_blank">Code <i class="fa fa-github viewcode"></i></a>
+                            
+                             <!-- Modal to show project details -->
+                             <a class="btn" data-toggle="modal" data-target="#drawModalCenter">Details</a>
+                            
+                             <div class="modal fade" id="drawModalCenter" tabindex="-1" role="dialog"
+                                 aria-labelledby="drawModalCenterTitle" aria-hidden="true">
+                                 <div class="modal-dialog modal-dialog-centered" role="document">
+                                     <div class="modal-content">
+                                         <div class="modal-header text-left">
+                                             <h5 class="modal-title" id="drawModalLongTitle">Drawing Tool
+                                                 <p class="modal-project-desription">Interactive application</p></h5>
+                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                 <span aria-hidden="true">&times;</span>
+                                             </button>
+                                         </div>
+                                         <div class="modal-body text-left">
+                                             <p>Description is in progress ...</p>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
                         </div>
                     </div>
 
                 </div>
                 <p class="more-projects">View more projects <a href="http://github.com/NatalliaA" target="_blank">
-                    <i class="fa fa-github media-icon-more"></i>
-                </a></p>
+                        <i class="fa fa-github media-icon-more"></i>
+                    </a></p>
 
             </div>
         </div>

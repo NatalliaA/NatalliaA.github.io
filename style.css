@@ -140,7 +140,7 @@ p.tools {
 
 .btn:hover {
     background-color: rgba(52, 58, 64, 1);
-    color: white;
+    color: white !important;
     box-shadow: none;
     transform: translateY(0.1em);
 }
@@ -222,6 +222,17 @@ p.tools {
 .more-projects{
     font-size: 1.3em;
     margin-top: 2em;
+}
+
+/* Modal window for project details */
+.modal-header{
+    padding-bottom: 0;    
+    color: #179b9f;
+}
+.modal-project-desription{    
+    margin-top: 0.3em;
+    font-size: 0.8em;
+    color: black;
 }
 
 /*Section: Contact*/
