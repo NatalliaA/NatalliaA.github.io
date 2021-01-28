@@ -66,7 +66,8 @@ a:hover .media-icon-navbar {
 }
 
 .my-name{
-    color: rgba(45, 33, 97, 0.8);
+    /* color: rgba(53, 22, 192, 0.8); */
+    color:rgba(45, 33, 97, 0.8);
     box-shadow: 0.1em 0.2em 0.1em rgba(52, 58, 64, 0.3);
     border-radius: 4px;
 }
@@ -88,7 +89,17 @@ a:hover .media-icon-navbar {
 }
 
 #card-about{
-    margin-bottom: 2em;   
+    margin-bottom: 2em; 
+    background-color: rgba(234, 238, 241, 0.6);  
+}
+
+.text-teal{
+    color:  rgb(6, 148, 153);
+}
+
+.text-purple{
+    color: rgba(65, 41, 175, 0.9);
+    /* color: rgb(53, 22, 192, 0.9); */
 }
 
 /* #introduction {
@@ -104,7 +115,7 @@ a:hover .media-icon-navbar {
 #skills {
     color: rgb(52, 58, 64); 
     color: rgba(255, 255, 255, 0.9);  
-    background:rgba(45, 33, 97, 0.9);     
+    background:rgba(45, 33, 97, 0.9);  
     border-top: 1px solid rgba(65, 105, 225, 0.2);    
 }
 
