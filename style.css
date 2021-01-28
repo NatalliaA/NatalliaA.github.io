@@ -7,10 +7,8 @@ body {
 }
 
 /*Navigation Bar*/
-
 .navbar {
-    padding: 0.7em 2em;
-    /* background-color: rgba(52, 58, 64, 0.9) !important;  */
+    padding: 0.7em 2em;   
 }
 
 nav li a {
@@ -19,7 +17,7 @@ nav li a {
 }
 
 nav li a:hover, nav li a.active {
-    color: white !important;
+    color: white !important; 
 }
 
 nav a {
@@ -43,85 +41,83 @@ a:hover .media-icon-navbar {
     border: 0.1em solid rgba(255, 255, 255, 0.7);
 }
 
-/*Jumbotron*/
-
-.jumbotron {
-    margin-bottom: 0;
-    margin-top: 0;
-    background-color: #179b9f;
-    color: white;
-    border-radius: 0;
-    padding-top: 4.5em;
-    padding-bottom: 3.5em;
-}
-
-#my-logo-navbar {
-    margin-bottom: 1em;
-}
-
-.jumbotron p {
-    font-size: 1.3em;
-}
-
 /*Sections*/
 
-.my-name {
-    color: #179b9f;
+/* Outer section box */
+.section-box {
+    padding: 1em 1.5em 5em 1.5em;
+    /* border: orange 1px solid; */
 }
-
+/* Title box in the section */
 .title-section {
     padding-top: 5em;
     padding-bottom: 3em;
-}
-
-.section-box {
-    padding: 1em 1.5em 5em 1.5em;
-}
-
-.section-devider {
-    background-color: rgba(255, 255, 255, 0.7);
+    /* border: red solid 2px; */
 }
 
 /*Section: About*/
 
+.section-box-about{
+    padding: 1em 1.5em 0 1.5em;
+    /* border: purple 1px solid; */
+}
+
 #about {
-    color: rgb(52, 58, 64);
+    color: rgb(52, 58, 64);      
+}
+.my-name{
+    color: rgba(23, 155, 159, 1);
+    box-shadow: 0.1em 0.2em 0.1em rgba(52, 58, 64, 0.3);
+}
+.my-profession{
+    /* border:  rgba(23, 155, 159, 0.4) 3px solid;    */
+    color: rgba(45, 33, 97, 0.9);
+    box-shadow: 0.1em 0.2em 0.1em rgba(52, 58, 64, 0.3);
+    padding: 0.2em;
+    margin-top: 0.5em; 
+    margin-bottom: 1em;    
 }
 
-/* #introduction-img {
-    border-radius: 50%;
-    height: 14em;
-    width: 12.5em;
+#introduction-img {   
+    width: 80%;
     margin-bottom: 2em;
-} */
+    box-shadow: 0.3em 0.4em 0.4em rgba(52, 58, 64, 0.3);    
+}
 
-#introduction-img {
-    height: 35vh;
-    width: auto;
-    margin-bottom: 2em;
+#introduction {
+    background-color: rgba(23, 155, 159, 1);   
+    padding: 1em;
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: justify;   
+}
+
+/*Section: Skills */
+
+#skills {
+    color: rgb(52, 58, 64); 
+    color: rgba(255, 255, 255, 0.9);  
+    background:rgba(45, 33, 97, 0.9);     
+    border-top: 1px solid rgba(65, 105, 225, 0.2);    
+}
+.card{    
+    background-color: rgba(234, 238, 241, 1);
     box-shadow: 0.3em 0.4em 0.4em rgba(52, 58, 64, 0.3);
+    margin-bottom: 1em;
+}
+.card-title{
+    color: rgba(23, 155, 159, 1);
 }
 
-#introduction-text {
-    font-size: 1.1em;
-    color: rgb(52, 58, 64);
-    text-align: justify;
-}
-
-.skills-box {
-    padding-top: 0.5em;
-    font-size: 1.1em;
-    color: rgb(52, 58, 64);
-}
-
-p.tools {
-    margin-bottom: 0;
+.card-text{
+    color: rgb(52, 58, 64);  
 }
 
 /*Section: Projects*/
 
 #projects {
     color: rgb(52, 58, 64);
+    background-color: rgba(255, 255, 255, 0.7);  
     border-top: 1px solid rgba(65, 105, 225, 0.2);
     border-bottom: 1px solid rgba(65, 105, 225, 0.2);
 }
@@ -168,10 +164,11 @@ p.tools {
 }
 
 .project-inner-box {
-    background-color: rgba(234, 238, 241, 1);
+    /* background-color: rgba(234, 238, 241, 1); */
+    background-color: rgba(52, 58, 64, 0.2);
     position: relative;
     padding: 0 1.5em 1.5em 1.5em;
-    box-shadow: 0.3em 0.4em 0.4em rgba(52, 58, 64, 0.3);
+    box-shadow: 0.3em 0.4em 0.4em rgba(52, 58, 64, 0.4);
 }
 
 /*Project name and technology */
@@ -250,7 +247,7 @@ p.tools {
 /*Section: Contact*/
 
 #contact {
-    background-color: #179b9f;
+    background-color: rgba(23, 155, 159, 1);
     padding-bottom: 4em;
     color: white;
 }
@@ -276,7 +273,7 @@ p.tools {
 }
 
 a:hover .media-icon-contact {
-    color: #179b9f;
+    color: rgba(23, 155, 159, 1);
     background-color: white;
 }
 
