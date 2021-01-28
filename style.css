@@ -162,7 +162,8 @@ a:hover .media-icon-navbar {
 }
 
 .btn:hover {
-    background-color: rgba(52, 58, 64, 0.8);
+    /* background-color: rgba(52, 58, 64, 0.8); */
+    background-color: rgba(45, 33, 97, 0.9);
     color: white !important;
     box-shadow: 0.1em 0.1em 0.2em rgba(52, 58, 64, 0.4);
     transform: translateY(0.1em);
@@ -179,7 +180,7 @@ a:hover .media-icon-navbar {
 /*Change background color of clicked tag and animate*/
 
 .tag-clicked:focus {
-    background-color: rgba(52, 58, 64, 0.8);
+    background-color: rgba(45, 33, 97, 0.9);
     color: white;
 }
 
@@ -224,7 +225,7 @@ a:hover .media-icon-navbar {
 }
 
 .project-img-box:hover {
-    opacity: 0.5;
+    opacity: 0.4;    
 }
 
 /*Buttons for view live, code, description in project image */
