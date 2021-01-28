@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     /*for scrollspy: linking sections with navigation bar at scrolling*/
     position: relative;
+    font-size: 16px;
 }
 
 /*Navigation Bar*/
@@ -66,6 +67,10 @@ a:hover .media-icon-navbar {
     /* border: red solid 2px; */
 }
 
+.title-section h2{
+    font-size: 2em;
+}
+
 /*Section: About*/
 
 #about {
@@ -81,6 +86,7 @@ a:hover .media-icon-navbar {
 
 .my-profession {
     /* border:  rgba(23, 155, 159, 0.4) 3px solid;    */
+    font-size: 2em;
     border-radius: 4px;
     color: rgba(60, 37, 161, 0.8);
     box-shadow: 0.1em 0.2em 0.1em rgba(52, 58, 64, 0.3);
