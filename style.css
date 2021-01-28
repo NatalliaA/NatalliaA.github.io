@@ -181,9 +181,8 @@ a:hover .media-icon-navbar {
     margin-top: 2em;
 }
 
-.project-inner-box {
-    /* background-color: rgba(234, 238, 241, 1); */
-    background-color: rgba(52, 58, 64, 0.2);
+.project-inner-box {    
+    background-color: rgba(218, 220, 221, 0.8);     
     border-radius: 4px;
     position: relative;
     padding: 0 1.5em 1.5em 1.5em;
