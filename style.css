@@ -68,10 +68,12 @@ a:hover .media-icon-navbar {
 .my-name{
     color: rgba(23, 155, 159, 1);
     box-shadow: 0.1em 0.2em 0.1em rgba(52, 58, 64, 0.3);
+    border-radius: 4px;
 }
 
 .my-profession{
     /* border:  rgba(23, 155, 159, 0.4) 3px solid;    */
+    border-radius: 4px;
     color: rgba(45, 33, 97, 0.9);
     box-shadow: 0.1em 0.2em 0.1em rgba(52, 58, 64, 0.3);
     padding: 0.2em;
@@ -80,7 +82,8 @@ a:hover .media-icon-navbar {
 }
 
 #introduction-img {   
-    width: 80%;   
+    width: 80%;
+    border-radius: 4px;   
     box-shadow: 0.3em 0.4em 0.4em rgba(52, 58, 64, 0.3);    
 }
 
@@ -132,6 +135,7 @@ a:hover .media-icon-navbar {
 .btn {    
     background-color: white;
     border: 0.1em solid rgba(52, 58, 64, 0.4);
+    border-radius: 4px !important;
     color: rgb(52, 58, 64);
     border-radius: 0;
     margin-left: 0.1em;
@@ -169,6 +173,7 @@ a:hover .media-icon-navbar {
 .project-inner-box {
     /* background-color: rgba(234, 238, 241, 1); */
     background-color: rgba(52, 58, 64, 0.2);
+    border-radius: 4px;
     position: relative;
     padding: 0 1.5em 1.5em 1.5em;
     box-shadow: 0.3em 0.4em 0.4em rgba(52, 58, 64, 0.4);
@@ -191,7 +196,11 @@ a:hover .media-icon-navbar {
 
 .project-img-box {
     padding: 0;
-    margin: 0;
+    margin: 0;    
+}
+
+.project-img-box img{
+    border-radius: 4px;
 }
 
 .project-img-box:hover {
