@@ -77,7 +77,7 @@ a:hover .media-icon-navbar {
     padding-bottom: 0;
 }   
 
-/* Title box in the section */
+/* Section Title */
 
 .title-section {
     padding: 5em 0 3em 0;   
@@ -156,7 +156,7 @@ h3.card-title {
     border-bottom: 1px solid rgba(65, 105, 225, 0.2);
 }
 
-/* Button Tags */
+/* Buttons */
 
 .btn {
     background-color: rgb(255, 255, 255);
@@ -186,7 +186,7 @@ h3.card-title {
     color: rgb(255, 255, 255);
 }
 
-/* Project container */
+/* Project Container */
 
 .project-outer-box {
     padding: 1em;
@@ -201,7 +201,7 @@ h3.card-title {
     box-shadow: 0.3em 0.4em 0.4em rgba(52, 58, 64, 0.4);
 }
 
-/*Project name and technology */
+/*Project Name and Technology */
 
 .project-name {
     padding: 1em;
@@ -219,13 +219,13 @@ h3.project-name{
     color: rgb(52, 58, 64);
     font-size: 1em;
 }
-/* Button Code icon */
+/* Code Button Icon */
 
 .icon-viewcode {
     font-size: 1.3em;
 }
 
-/* Add border for Project Multiplication beacause its background is similar to container color */
+/* Add border for project Multiplication beacause its background is similar to container color */
 
 #multiplicationproject img {
     border: rgba(255, 255, 255, 1) 2px solid;
@@ -242,7 +242,7 @@ h3.project-name{
     bottom: -2.5em;
 }
 
-/* More projects available at */
+/* View More Projects */
 
 .more-projects {
     font-size: 1.3em;
@@ -261,7 +261,7 @@ h3.project-name{
     background-color: rgb(255, 255, 255);
 }
 
-/* Modal window for project details */
+/* Modal for Project Details */
 
 .modal-header {
     padding-bottom: 0;   
@@ -295,7 +295,7 @@ h3.modal-title{
     font-size: 1.2em;
 }
 
-/*Icons for contacts*/
+/*Icons for Contacts*/
 
 .media-icon-contact {
     font-size: 2em;
@@ -319,7 +319,7 @@ footer {
     color: rgba(255, 255, 255, 0.6);
 }
 
-/* Font-size for xs screens */
+/* XS Screens */
 @media only screen and (max-width: 600px) {
     p {
       font-size: 1em;
