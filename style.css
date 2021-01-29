@@ -67,7 +67,7 @@ a:hover .media-icon-navbar {
     /* border: red solid 2px; */
 }
 
-.title-section h2{
+.title-section h2 {
     font-size: 2em;
 }
 
@@ -223,22 +223,28 @@ a:hover .media-icon-navbar {
 
 .project-technology {
     padding: 1em;
-    margin: 0;
+    margin: 1em 0 0.3em 0;
     color: rgb(52, 58, 64);
     font-size: 1em;
 }
 
-.project-img-box {
-    padding: 0;
-    margin: 0;
-}
-
-.project-img-box img {
+img {
     border-radius: 4px;
 }
 
-.project-img-box:hover {
-    opacity: 0.4;
+/*Carousel project box*/
+
+.carousel img {
+    border-radius: 4px;
+}
+
+.carousel-indicators, .carousel-control-prev, .carousel-control-next {
+    filter: invert(90%) !important;
+    position: absolute;
+}
+
+.carousel-indicators {
+    bottom: -2.5em;
 }
 
 /*Buttons for view live, code, description in project image */
@@ -329,58 +335,4 @@ a:hover .media-icon-contact {
     padding: 1.5em 0 0.5em 0;
     background-color: rgb(52, 58, 64);
     color: rgba(255, 255, 255, 0.6);
-}
-
-/*Project Details Page*/
-
-#project-page-box {
-    color: rgb(52, 58, 64);
-}
-
-.project-page-details {
-    color: rgb(52, 58, 64);
-    text-align: left;
-}
-
-/*Carousel*/
-
-#project-page-carousel {
-    position: relative;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.carousel-indicators, .carousel-control-prev, .carousel-control-next {
-    filter: invert(95%) !important;
-    position: absolute;
-}
-
-.carousel-indicators {
-    bottom: -3em;
-}
-
-.carousel-control-prev, .carousel-control-next {
-    margin-left: -2.1em;
-    margin-right: -2.1em;
-}
-
-.carousel-item img {
-    border: 0.1em solid rgba(0, 0, 0, 0.7);
-    border-radius: 0 !important;
-    padding: 0.6em;
-    width: 90% !important;
-}
-
-#project-screenshots {
-    margin-bottom: 4em;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-/*Buttons for view live/code on project details page */
-
-.project-page-buttons-box {
-    margin-top: 2em;
 }

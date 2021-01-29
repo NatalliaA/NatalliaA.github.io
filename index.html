@@ -3,13 +3,14 @@
 
 <head>
     <!-- Meta tags -->
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <meta name="application-name" content="Natallia Akulenka | Web Developer Portfolio"/>
-    <meta name="description" content="My expertise is in designing and developing responsive websites. Take a look at my portfolio."/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="application-name" content="Natallia Akulenka | Web Developer Portfolio" />
+    <meta name="description"
+        content="My expertise is in designing and developing responsive websites. Take a look at my portfolio." />
     <meta name="keywords"
-        content="Natallia, Akulenka, developer, front-end, back-end, full stack, projects, responsive, design, portfolio"/>
-    <meta name="author" content="Natallia Akulenka"/>    
+        content="Natallia, Akulenka, developer, front-end, back-end, full stack, projects, responsive, design, portfolio" />
+    <meta name="author" content="Natallia Akulenka" />
 
     <!-- From Google Verification -->
     <meta name="google-site-verification" content="ZtlCRksrwtEW9t3W5ub_K4jLgMO8IWiQSCGUukdbbxo" />
@@ -99,13 +100,6 @@
         </div>
     </div>
 
-    <!-- Section: Introduction short -->
-
-    <!-- <div id="introduction" class="text-center">
-        <p>Are you looking for a reliable web developer who creates user-friendly websites?</p>
-        <p>Take a look at my portfolio and get in touch with me!</p>
-    </div> -->
-
     <!-- Section: Skills -->
 
     <div id="skills" class="container-fluid">
@@ -172,6 +166,7 @@
             <button id="thirdpartybtn" class="btn tag-clicked" type="button">REST APIs</button>
             <button id="aspnetbtn" class="btn tag-clicked" type="button">ASP.NET</button>
         </div>
+
         <!--Projects' Containers-->
         <div id="projectContainer" class="row justify-content-center">
 
@@ -179,9 +174,48 @@
             <div id="natureproject" class="col-md-6 col-xl-4 project-outer-box">
                 <div class="project-inner-box">
                     <p class="project-name">Nature in California</p>
-                    <div class="project-img-box">
-                        <a href="nature/index.html" target="_blank">
-                            <img class="img-fluid" alt="Project" src="images/npscreen2.PNG">
+                    <!-- Carousel -->
+                    <div id="nature-carousel" class="carousel" data-interval="false" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#nature-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#nature-carousel" data-slide-to="1"></li>
+                            <li data-target="#nature-carousel" data-slide-to="2"></li>
+                            <li data-target="#nature-carousel" data-slide-to="3"></li>
+                            <li data-target="#nature-carousel" data-slide-to="4"></li>
+                            <li data-target="#nature-carousel" data-slide-to="5"></li>
+                            <li data-target="#nature-carousel" data-slide-to="6"></li>
+                        </ul>
+                        <!-- Slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/npscreen2.PNG" class="img-fluid" alt="Nature in CA">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/npscreen5.PNG" class="img-fluid" alt="Nature in CA">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/npscreen3.PNG" class="img-fluid" alt="Nature in CA">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/npscreen8.PNG" class="img-fluid" alt="Nature in CA">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/npscreen7.PNG" class="img-fluid" alt="Nature in CA">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/npscreen4.PNG" class="img-fluid" alt="Nature in CA">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/npscreen1.PNG" class="img-fluid" alt="Nature in CA">
+                            </div>
+                        </div>
+                        <!-- Left and Right Controls -->
+                        <a class="carousel-control-prev" href="#nature-carousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#nature-carousel" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
                         </a>
                     </div>
                     <!--Technology-->
@@ -230,89 +264,48 @@
                 </div>
             </div>
 
-            <!--Project: Lesson with Quiz-->
-            <div id="schoolproject" class="col-md-6 col-xl-4 project-outer-box">
-                <div class="project-inner-box">
-                    <p class="project-name">Lesson with Quiz</p>
-                    <div class="project-img-box">
-                        <a href="school/index.html" target="_blank">
-                            <img class="img-fluid" alt="Project" src="images/schoolscreen3.png">
-                        </a>
-                    </div>
-                    <!--Technology-->
-                    <p class="project-technology">HTML5 | CSS3 | Bootstrap | jQuery</p>
-                    <a class="btn" href="school/index.html" target="_blank">Demo</a>
-                    <a class="btn" href="https://github.com/NatalliaA/online-school-jsquiz" target="_blank">Code
-                        <i class="fa fa-github icon-viewcode"></i></a>
-                    <!-- Modal to show project details -->
-                    <a class="btn" data-toggle="modal" data-target="#lessonModalCenter">Details</a>
-                    <div class="modal fade" id="lessonModalCenter" tabindex="-1" role="dialog"
-                        aria-labelledby="lessonModalCenterTitle" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header text-left">
-                                    <h5 class="modal-title" id="lessonModalLongTitle">Lesson with Quiz
-                                        <p class="modal-project-desription">
-                                            Online multimedia lesson with photos | video | text | quiz</p>
-                                    </h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body text-left">
-                                    <p>Description is in progress ...</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--Project: Top Cities to Visit in the USA-->
-            <div id="citiesproject" class="col-md-6 col-xl-4 project-outer-box">
-                <div class="project-inner-box">
-                    <p class="project-name">Travel &amp; Learn</p>
-                    <div class="project-img-box">
-                        <a href="cities/index.html" target="_blank">
-                            <img class="img-fluid" alt="Project" src="images/citiesscreen1.png">
-                        </a>
-                    </div>
-                    <!--Technology-->
-                    <p class="project-technology">HTML5 | CSS3 | CSS Grid | JavaScript | Google Maps API</p>
-                    <a class="btn" href="cities/index.html" target="_blank">Demo</a>
-                    <a class="btn" href="https://github.com/NatalliaA/top-us-cities" target="_blank">Code <i
-                            class="fa fa-github icon-viewcode"></i></a>
-                    <!-- Modal to show project details -->
-                    <a class="btn" data-toggle="modal" data-target="#citiesModalCenter">Details</a>
-                    <div class="modal fade" id="citiesModalCenter" tabindex="-1" role="dialog"
-                        aria-labelledby="citiesModalCenterTitle" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header text-left">
-                                    <h5 class="modal-title" id="citiesModalLongTitle">Travel &amp; Learn
-                                        <p class="modal-project-desription">Responsive webpage with photos |
-                                            map | distance calculator</p>
-                                    </h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body text-left">
-                                    <p>Description is in progress ...</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <!--Project: WeSeeArt-->
             <div id="weseeartproject" class="col-md-6 col-xl-4 project-outer-box">
                 <div class="project-inner-box">
                     <p class="project-name">WeSeeArt</p>
-                    <div class="project-img-box">
-                        <a href="https://streetart-boulder.herokuapp.com/" target="_blank">
-                            <img class="img-fluid" alt="project" src="images/art1.png">
+                    <!-- Carousel -->
+                    <div id="art-carousel" class="carousel" data-interval="false" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#art-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#art-carousel" data-slide-to="1"></li>
+                            <li data-target="#art-carousel" data-slide-to="2"></li>
+                            <li data-target="#art-carousel" data-slide-to="3"></li>
+                            <li data-target="#art-carousel" data-slide-to="4"></li>
+                            <li data-target="#art-carousel" data-slide-to="5"></li>
+                        </ul>
+                        <!-- Slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/art1.png" class="img-fluid" alt="Online School">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/art2.png" class="img-fluid" alt="Online School">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/art3.png" class="img-fluid" alt="Online School">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/art4.png" class="img-fluid" alt="Online School">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/art5.png" class="img-fluid" alt="Online School">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/art6.png" class="img-fluid" alt="Online School">
+                            </div>
+                        </div>
+                        <!-- Left and Right Controls -->
+                        <a class="carousel-control-prev" href="#art-carousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#art-carousel" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
                         </a>
                     </div>
                     <!--Technology-->
@@ -344,13 +337,105 @@
                 </div>
             </div>
 
+            <!--Project: Lesson with Quiz-->
+            <div id="schoolproject" class="col-md-6 col-xl-4 project-outer-box">
+                <div class="project-inner-box">
+                    <p class="project-name">Lesson with Quiz</p>
+                    <!-- Carousel -->
+                    <div id="school-carousel" class="carousel" data-interval="false" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#school-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#school-carousel" data-slide-to="1"></li>
+                            <li data-target="#school-carousel" data-slide-to="2"></li>
+                            <li data-target="#school-carousel" data-slide-to="3"></li>
+                            <li data-target="#school-carousel" data-slide-to="4"></li>
+                        </ul>
+                        <!-- Slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/schoolscreen3.png" class="img-fluid" alt="Online School">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/schoolscreen1.png" class="img-fluid" alt="Online School">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/schoolscreen2.png" class="img-fluid" alt="Online School">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/schoolscreen4.png" class="img-fluid" alt="Online School">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/schoolscreen5.png" class="img-fluid" alt="Online School">
+                            </div>
+                        </div>
+                        <!-- Left and Right Controls -->
+                        <a class="carousel-control-prev" href="#school-carousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#school-carousel" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                    <!--Technology-->
+                    <p class="project-technology">HTML5 | CSS3 | Bootstrap | jQuery</p>
+                    <a class="btn" href="school/index.html" target="_blank">Demo</a>
+                    <a class="btn" href="https://github.com/NatalliaA/online-school-jsquiz" target="_blank">Code
+                        <i class="fa fa-github icon-viewcode"></i></a>
+                    <!-- Modal to show project details -->
+                    <a class="btn" data-toggle="modal" data-target="#lessonModalCenter">Details</a>
+                    <div class="modal fade" id="lessonModalCenter" tabindex="-1" role="dialog"
+                        aria-labelledby="lessonModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header text-left">
+                                    <h5 class="modal-title" id="lessonModalLongTitle">Lesson with Quiz
+                                        <p class="modal-project-desription">
+                                            Online multimedia lesson with photos | video | text | quiz</p>
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body text-left">
+                                    <p>Description is in progress ...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!--Project: Milkshakes-->
             <div id="shakesproject" class="col-md-6 col-xl-4 project-outer-box">
                 <div class="project-inner-box">
                     <p class="project-name">Milkshakes</p>
-                    <div class="project-img-box">
-                        <a href="https://natalliaa.github.io/shakes-react/" target="_blank">
-                            <img class="img-fluid" alt="project" src="images/shakes1.png">
+                    <!-- Carousel -->
+                    <div id="shakes-carousel" class="carousel" data-interval="false" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#shakes-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#shakes-carousel" data-slide-to="1"></li>
+                            <li data-target="#shakes-carousel" data-slide-to="2"></li>
+                        </ul>
+                        <!-- Slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/shakes1.jpg" class="img-fluid" alt="Online School">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/shakes2.jpg" class="img-fluid" alt="Online School">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/shakes3.jpg" class="img-fluid" alt="Online School">
+                            </div>
+                        </div>
+                        <!-- Left and Right Controls -->
+                        <a class="carousel-control-prev" href="#shakes-carousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#shakes-carousel" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
                         </a>
                     </div>
                     <!--Technology-->
@@ -383,13 +468,125 @@
                 </div>
             </div>
 
+            <!--Project: Top Cities to Visit in the USA-->
+            <div id="citiesproject" class="col-md-6 col-xl-4 project-outer-box">
+                <div class="project-inner-box">
+                    <p class="project-name">Travel &amp; Learn</p>
+                    <div id="cities-carousel" class="carousel" data-interval="false" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#cities-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#cities-carousel" data-slide-to="1"></li>
+                            <li data-target="#cities-carousel" data-slide-to="2"></li>
+                            <li data-target="#cities-carousel" data-slide-to="3"></li>
+                            <li data-target="#cities-carousel" data-slide-to="4"></li>
+                        </ul>
+                        <!-- Slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/citiesscreen1.png" class="img-fluid"
+                                    alt="Top Cities to Visit in the USA">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/citiesscreen2.png" class="img-fluid"
+                                    alt="Top Cities to Visit in the USA">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/citiesscreen3.png" class="img-fluid"
+                                    alt="Top Cities to Visit in the USA">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/citiesscreen4.png" class="img-fluid"
+                                    alt="Top Cities to Visit in the USA">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/citiesscreen5.png" class="img-fluid"
+                                    alt="Top Cities to Visit in the USA">
+                            </div>
+                        </div>
+                        <!-- Left and Right Controls -->
+                        <a class="carousel-control-prev" href="#cities-carousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#cities-carousel" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                    <!--Technology-->
+                    <p class="project-technology">HTML5 | CSS3 | CSS Grid | JavaScript | Google Maps API</p>
+                    <a class="btn" href="cities/index.html" target="_blank">Demo</a>
+                    <a class="btn" href="https://github.com/NatalliaA/top-us-cities" target="_blank">Code <i
+                            class="fa fa-github icon-viewcode"></i></a>
+                    <!-- Modal to show project details -->
+                    <a class="btn" data-toggle="modal" data-target="#citiesModalCenter">Details</a>
+                    <div class="modal fade" id="citiesModalCenter" tabindex="-1" role="dialog"
+                        aria-labelledby="citiesModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header text-left">
+                                    <h5 class="modal-title" id="citiesModalLongTitle">Travel &amp; Learn
+                                        <p class="modal-project-desription">Responsive webpage with photos |
+                                            map | distance calculator</p>
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body text-left">
+                                    <p>Description is in progress ...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!--Project: Russian for Kids-->
             <div id="russianproject" class="col-md-6 col-xl-4 project-outer-box">
                 <div class="project-inner-box">
                     <p class="project-name">Russian for Kids</p>
-                    <div class="project-img-box">
-                        <a href="https://github.com/NatalliaA/russian-kids-asp" target="_blank">
-                            <img class="img-fluid" alt="project" src="images/russianscreen4.png">
+                    <div id="russian-carousel" class="carousel" data-interval="false" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#russian-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#russian-carousel" data-slide-to="1"></li>
+                            <li data-target="#russian-carousel" data-slide-to="2"></li>
+                            <li data-target="#russian-carousel" data-slide-to="3"></li>
+                            <li data-target="#russian-carousel" data-slide-to="4"></li>
+                            <li data-target="#russian-carousel" data-slide-to="5"></li>
+                            <li data-target="#russian-carousel" data-slide-to="6"></li>
+                        </ul>
+                        <!-- Slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/russianscreen4.png" class="img-fluid" alt="Russian for Kids">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/russianscreen3.png" class="img-fluid" alt="Russian for Kids">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="images/russianscreen6.png" class="img-fluid" alt="Russian for Kids">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/russianscreen8.png" class="img-fluid" alt="Russian for Kids">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/russianscreen7.png" class="img-fluid" alt="Russian for Kids">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/russianscreen11.png" class="img-fluid" alt="Russian for Kids">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/russianscreen14.png" class="img-fluid" alt="Russian for Kids">
+                            </div>
+                        </div>
+                        <!-- Left and Right Controls -->
+                        <a class="carousel-control-prev" href="#russian-carousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#russian-carousel" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
                         </a>
                     </div>
                     <!--Technology-->
@@ -427,9 +624,35 @@
             <div id="multiplicationproject" class="col-md-6 col-xl-4 project-outer-box">
                 <div class="project-inner-box">
                     <p class="project-name">Multiplication Game</p>
-                    <div class="project-img-box">
-                        <a href="multiplication/index.html" target="_blank">
-                            <img class="img-fluid" alt="project" src="images/multiplicationscreen1.png">
+                    <div id="multiplication-carousel" class="carousel" data-interval="false" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#multiplication-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#multiplication-carousel" data-slide-to="1"></li>
+                            <li data-target="#multiplication-carousel" data-slide-to="2"></li>
+                            <li data-target="#multiplication-carousel" data-slide-to="3"></li>
+                        </ul>
+                        <!-- Slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/multiplicationscreen1.png" class="img-fluid" alt="Multiplication Game">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/multiplicationscreen2.png" class="img-fluid" alt="Multiplication Game">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/multiplicationscreen3.png" class="img-fluid" alt="Multiplication Game">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/multiplicationscreen4.png" class="img-fluid" alt="Multiplication Game">
+                            </div>
+                        </div>
+                        <!-- Left and Right Controls -->
+                        <a class="carousel-control-prev" href="#multiplication-carousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#multiplication-carousel" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
                         </a>
                     </div>
                     <!--Technology-->
@@ -466,9 +689,35 @@
             <div id="drawingproject" class="col-md-6 col-xl-4 project-outer-box">
                 <div class="project-inner-box">
                     <p class="project-name">Drawing Tool</p>
-                    <div class="project-img-box">
-                        <a href="draw/index.html" target="_blank">
-                            <img class="img-fluid" alt="project" src="images/drawscreen1.png">
+                    <div id="draw-carousel" class="carousel" data-interval="false" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#draw-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#draw-carousel" data-slide-to="1"></li>
+                            <li data-target="#pdraw-carousel" data-slide-to="2"></li>
+                            <li data-target="#draw-carousel" data-slide-to="3"></li>
+                        </ul>
+                        <!-- Slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/drawscreen1.png" class="img-fluid" alt="Drawing Tool">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/drawscreen4.png" class="img-fluid" alt="Drawing Tool">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="images/drawscreen2.png" class="img-fluid" alt="Drawing Tool">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/drawscreen3.png" class="img-fluid" alt="Drawing Tool">
+                            </div>
+                        </div>
+                        <!-- Left and Right Controls -->
+                        <a class="carousel-control-prev" href="#draw-carousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#draw-carousel" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
                         </a>
                     </div>
                     <!--Technology-->
@@ -504,7 +753,6 @@
         <p class="more-projects">View more projects <a href="https://github.com/NatalliaA" target="_blank">
                 <i class="fa fa-github media-icon-more"></i>
             </a></p>
-
     </div>
 
 
