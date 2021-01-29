@@ -15,6 +15,10 @@ p{
     font-size: 1.2rem;
 }
 
+img {
+    border-radius: 4px;
+}
+
 .text-teal {
     color: rgb(6, 148, 153);
 }
@@ -79,7 +83,7 @@ a:hover .media-icon-navbar {
     padding: 5em 0 3em 0;   
 }
 
-.title-section h2 {
+div.title-section > h2 {
     font-size: 2.3em;
 }
 
@@ -104,7 +108,7 @@ a:hover .media-icon-navbar {
     margin-bottom: 1em;
 }
 
-h2.my-profession{
+h2.my-profession {
     font-size: 2em;
 }
 
@@ -160,8 +164,7 @@ h3.card-title {
     border-radius: 4px !important;
     color: rgb(52, 58, 64);
     border-radius: 0;
-    margin-left: 0.1em;
-    margin-right: 0.1em;
+    margin: 0 0.1em 0.5em 0.1em;   
     box-shadow: 0.1em 0.1em 0.2em rgba(52, 58, 64, 0.4);
 }
 
@@ -172,17 +175,13 @@ h3.card-title {
     transform: translateY(0.1em);
 }
 
+.btn:active {
+    transform: translateY(0.1em);
+    box-shadow: none;
+}
+
 .btn:focus {
     box-shadow: 0.1em 0.1em 0.2em rgba(52, 58, 64, 0.4);
-}
-
-.tag-clicked {
-    margin-bottom: 1em;
-}
-
-/*Change background color of clicked tag and animate*/
-
-.tag-clicked:focus {
     background-color: rgba(45, 33, 97, 0.9);
     color: rgb(255, 255, 255);
 }
@@ -200,12 +199,6 @@ h3.card-title {
     position: relative;
     padding: 0 1.5em 1.5em 1.5em;
     box-shadow: 0.3em 0.4em 0.4em rgba(52, 58, 64, 0.4);
-}
-
-/* Project multiplication */
-
-#multiplicationproject img {
-    border: rgba(255, 255, 255, 1) 2px solid;
 }
 
 /*Project name and technology */
@@ -226,16 +219,19 @@ h3.project-name{
     color: rgb(52, 58, 64);
     font-size: 1em;
 }
+/* Button Code icon */
 
-img {
-    border-radius: 4px;
+.icon-viewcode {
+    font-size: 1.3em;
 }
 
-/*Carousel project box*/
+/* Add border for Project Multiplication beacause its background is similar to container color */
 
-.carousel img {
-    border-radius: 4px;
+#multiplicationproject img {
+    border: rgba(255, 255, 255, 1) 2px solid;
 }
+
+/*Carousel*/
 
 .carousel-indicators, .carousel-control-prev, .carousel-control-next {
     filter: invert(90%) !important;
@@ -246,20 +242,12 @@ img {
     bottom: -2.5em;
 }
 
-/*Buttons for view live, code, description in project image */
-
-/*Button animation*/
-
-.btn:active {
-    transform: translateY(0.1em);
-    box-shadow: none;
-}
-
-.btnproject-page-buttons-box:focus {
-    box-shadow: none;
-}
-
 /* More projects available at */
+
+.more-projects {
+    font-size: 1.3em;
+    margin-top: 2em;
+}
 
 .media-icon-more {
     font-size: 2em;
@@ -271,15 +259,6 @@ img {
 .media-icon-more:hover {
     color: rgba(23, 155, 159, 1);
     background-color: rgb(255, 255, 255);
-}
-
-.more-projects {
-    font-size: 1.3em;
-    margin-top: 2em;
-}
-
-.icon-viewcode {
-    font-size: 1.3em;
 }
 
 /* Modal window for project details */
@@ -311,12 +290,12 @@ h3.modal-title{
     margin-bottom: 2em;
 }
 
-#email p {
+#email>p {
     font-weight: 400;
     font-size: 1.2em;
 }
 
-/*Icons social media*/
+/*Icons for contacts*/
 
 .media-icon-contact {
     font-size: 2em;
