@@ -25,4 +25,4 @@ RESTful Routes | ASP.NET | C# | Java
 Git | GitHub| Heroku | Netlify | MongoDB Atlas
 
 # Portfolio Website
-[VIEW ONLINE](https://natalliaa.github.io/){:target="_blank"}
+[VIEW ONLINE](https://natalliaa.github.io/)
