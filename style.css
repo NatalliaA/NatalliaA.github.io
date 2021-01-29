@@ -6,6 +6,10 @@ body {
     position: relative;
     font-size: 16px;
 }
+/* CSS styling in older browser that don't support HTML5 semantic elements */
+header, nav, section, figure, article, aside, address, footer {
+    display: block;
+  }
 
 p{
     font-size: 1.2em;
@@ -340,3 +344,10 @@ a:hover .media-icon-contact {
     background-color: rgb(52, 58, 64);
     color: rgba(255, 255, 255, 0.6);
 }
+
+/* Font-size for xs screens */
+@media only screen and (max-width: 600px) {
+    p {
+      font-size: 1em;
+    }
+  }
