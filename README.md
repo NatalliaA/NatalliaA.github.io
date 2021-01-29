@@ -1,8 +1,6 @@
 # Portfolio
 ## Natallia Akulenka | Web Design & Development
 
-[VIEW ONLINE](https://natalliaa.github.io/)
-
 Hi, I am Natallia! 
 
 I am looking for a web developer position. My expertise is in designing and developing responsive and user-friendly websites. 
@@ -25,3 +23,6 @@ RESTful Routes | ASP.NET | C# | Java
 
 ### DEPLOY
 Git | GitHub| Heroku | Netlify | MongoDB Atlas
+
+# Portfolio Website
+[VIEW ONLINE](https://natalliaa.github.io/)
