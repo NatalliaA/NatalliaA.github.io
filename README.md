@@ -1,7 +1,7 @@
 # Portfolio
 ## Natallia Akulenka | Web Design & Development
 
-[VIEW ONLINE] (href='https://natalliaa.github.io/')
+[VIEW ONLINE](https://natalliaa.github.io/)
 
 Hi, I am Natallia! 
 
