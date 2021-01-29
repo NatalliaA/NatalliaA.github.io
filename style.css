@@ -1,10 +1,10 @@
 body {
-    margin-top: 3.5em;
+    font-size: 16px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    margin-top: 3.5em;    
     /*for scrollspy: linking sections with navigation bar at scrolling*/
-    position: relative;
-    font-size: 16px;
+    position: relative;    
 }
 /* CSS styling in older browser that don't support HTML5 semantic elements */
 header, nav, section, figure, article, aside, address, footer {
@@ -12,7 +12,15 @@ header, nav, section, figure, article, aside, address, footer {
   }
 
 p{
-    font-size: 1.2em;
+    font-size: 1.2rem;
+}
+
+.text-teal {
+    color: rgb(6, 148, 153);
+}
+
+.text-purple {
+    color: rgba(60, 37, 161, 0.9);
 }
 
 /*Navigation Bar*/
@@ -45,8 +53,7 @@ nav a {
     padding: 0.2em;
 }
 
-a:hover .media-icon-navbar {
-    /* color: rgba(255, 255, 255, 1); */
+a:hover .media-icon-navbar {   
     color: rgba(23, 155, 159, 1);
     background-color: rgb(255, 255, 255);
 }
@@ -58,21 +65,18 @@ a:hover .media-icon-navbar {
 
 /*Sections*/
 
-.container-fluid {
-    /* border: yellow 3px solid;     */
+.container-fluid {   
     padding-bottom: 5em;
 }
 
 .row {
     padding-bottom: 0;
-    /* border: blue 1px solid; */
-}
+}   
 
 /* Title box in the section */
 
 .title-section {
-    padding: 5em 0 3em 0;
-    /* border: red solid 2px; */
+    padding: 5em 0 3em 0;   
 }
 
 .title-section h2 {
@@ -85,22 +89,23 @@ a:hover .media-icon-navbar {
     color: rgb(52, 58, 64);
 }
 
-.my-name {
-    /* color: rgba(53, 22, 192, 0.8); */
+.my-name {   
     color: rgba(23, 155, 159, 0.9);
     box-shadow: 0.1em 0.2em 0.1em rgba(52, 58, 64, 0.3);
     border-radius: 4px;
 }
 
-.my-profession {
-    /* border:  rgba(23, 155, 159, 0.4) 3px solid;    */
-    font-size: 2em;
+.my-profession { 
     border-radius: 4px;
     color: rgba(60, 37, 161, 0.8);
     box-shadow: 0.1em 0.2em 0.1em rgba(52, 58, 64, 0.3);
     padding: 0.2em;
     margin-top: 0.5em;
     margin-bottom: 1em;
+}
+
+h2.my-profession{
+    font-size: 2em;
 }
 
 #introduction-img {
@@ -113,22 +118,6 @@ a:hover .media-icon-navbar {
     margin-bottom: 2em;
     background-color: rgba(234, 238, 241, 0.5);
 }
-
-.text-teal {
-    color: rgb(6, 148, 153);
-}
-
-.text-purple {
-    color: rgba(60, 37, 161, 0.9);
-}
-
-/* #introduction {
-    background-color: rgba(23, 155, 159, 1);   
-    padding: 1em;
-    font-size: 1.5em;
-    color: rgba(255, 255, 255, 0.8);
-    text-align: justify;   
-} */
 
 /*Section: Skills */
 
@@ -145,8 +134,9 @@ a:hover .media-icon-navbar {
     margin-bottom: 1em;
 }
 
-.card-title {
+h3.card-title {
     color: rgba(65, 41, 175, 0.9);
+    font-size: 1.3rem;
 }
 
 .card-text {
@@ -175,8 +165,7 @@ a:hover .media-icon-navbar {
     box-shadow: 0.1em 0.1em 0.2em rgba(52, 58, 64, 0.4);
 }
 
-.btn:hover {
-    /* background-color: rgba(52, 58, 64, 0.8); */
+.btn:hover {   
     background-color: rgba(45, 33, 97, 0.9);
     color: rgb(255, 255, 255) !important;
     box-shadow: 0.1em 0.1em 0.2em rgba(52, 58, 64, 0.4);
@@ -224,9 +213,11 @@ a:hover .media-icon-navbar {
 .project-name {
     padding: 1em;
     margin: 0;
-    color: rgba(60, 37, 161, 1);
-    /* text-transform: uppercase;  */
-    font-size: 1.3em;
+    color: rgba(60, 37, 161, 1);      
+}
+
+h3.project-name{
+    font-size: 1.3rem;
 }
 
 .project-technology {
@@ -294,8 +285,12 @@ img {
 /* Modal window for project details */
 
 .modal-header {
-    padding-bottom: 0;
+    padding-bottom: 0;   
+}
+
+h3.modal-title{
     color: #179b9f;
+    font-size: 1.3rem;
 }
 
 .modal-project-desription {
@@ -339,7 +334,7 @@ a:hover .media-icon-contact {
 
 /*Footer*/
 
-#footer {
+footer {
     padding: 1.5em 0 0.5em 0;
     background-color: rgb(52, 58, 64);
     color: rgba(255, 255, 255, 0.6);
