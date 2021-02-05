@@ -22,10 +22,7 @@ $(function () {
         $("#natureproject").show(1000);
         $("#citiesproject").show(1000);
         $("#multiplicationproject").show(1000);
-        $("#drawingproject").show(1000);
-        $("#russianproject").show(1000);
-        $("#weseeartproject").show(1000);
-        $("#shakesproject").show(1000);
+        $("#drawingproject").show(1000);           
     });
 
     //show only CSS Grid projects
@@ -34,6 +31,7 @@ $(function () {
         $("#natureproject").show(1000);
         $("#shakesproject").show(1000);
         $("#citiesproject").show(1000);
+        $("#questionsproject").show(1000); 
     });
 
     //show only Bootstrap projects
@@ -48,6 +46,7 @@ $(function () {
     $("#reactbtn").click(function () {
         $(".project-outer-box").hide();
         $("#shakesproject").show(1000);
+        $("#questionsproject").show(1000); 
     });
 
     //show only Node.js projects

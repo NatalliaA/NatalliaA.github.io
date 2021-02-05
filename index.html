@@ -42,7 +42,7 @@
         document.createElement("time");
     </script>
     <![endif]-->
-  
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="320">
@@ -74,7 +74,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="cv-natallia-akulenka.pdf" target="_blank">Resume</a>
-                    </li>                   
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
@@ -571,6 +571,68 @@
                     </div>
                 </article>
 
+                <!--Project: Q&A-->
+                <article id="questionsproject" class="col-md-6 col-xl-4 project-outer-box">
+                    <div class="project-inner-box">
+                        <header>
+                            <h3 class="project-name">Q&amp;A</h3>
+                        </header>
+                        <!-- Carousel -->
+                        <div id="questions-carousel" class="carousel" data-interval="false" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#questions-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#questions-carousel" data-slide-to="1"></li>
+                                <li data-target="#questions-carousel" data-slide-to="2"></li>
+                            </ul>
+                            <!-- Slideshow -->
+                            <figure class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/qa1.jpg" class="img-fluid" alt="Questions">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/qa2.jpg" class="img-fluid" alt="Questions">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/qa3.jpg" class="img-fluid" alt="Questions">
+                                </div>
+                            </figure>
+                            <!-- Left and Right Controls -->
+                            <a class="carousel-control-prev" href="#questions-carousel" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#questions-carousel" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                        <!--Technology-->
+                        <p class="project-technology">HTML5 | CSS3 | CSS Grid | React.js</p>
+                        <a class="btn" href="https://natalliaa.github.io/q-a-react/" target="_blank">Demo</a>
+                        <a class="btn" href="https://github.com/NatalliaA/q-a-react" target="_blank">Code <i
+                                class="fa fa-github icon-viewcode"></i></a>
+                        <!-- Modal to Show Project Details -->
+                        <a class="btn" data-toggle="modal" data-target="#questionsModalCenter">Details</a>
+                        <div class="modal fade" id="questionsModalCenter" tabindex="-1" role="dialog"
+                            aria-labelledby="questionsModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header text-left">
+                                        <h3 class="modal-title" id="questionsModalLongTitle">Q&amp;A
+                                            <p class="modal-project-desription">Responsive page with Q&amp;A part</p>
+                                        </h3>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body text-left">
+                                        <p>Description is in progress ...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
                 <!--Project: Russian for Kids-->
                 <article id="russianproject" class="col-md-6 col-xl-4 project-outer-box">
                     <div class="project-inner-box">
@@ -698,28 +760,28 @@
                         <a class="btn" href="multiplication/index.html" target="_blank">Demo</a>
                         <a class="btn" href="https://github.com/NatalliaA/multiplication-game" target="_blank">Code
                             <i class="fa fa-github icon-viewcode"></i></a>
-                            <!-- Modal to Show Project Details -->
-                            <a class="btn" data-toggle="modal" data-target="#multiplicationModalCenter">Details</a>
-                            <div class="modal fade" id="multiplicationModalCenter" tabindex="-1" role="dialog"
-                                aria-labelledby="multiplicationModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header text-left">
-                                            <h3 class="modal-title" id="multiplicationModalLongTitle">
-                                                Multiplication
-                                                Game
-                                                <p class="modal-project-desription">Interactive application</p>
-                                            </h3>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body text-left">
-                                            <p>Description is in progress ...</p>
-                                        </div>
+                        <!-- Modal to Show Project Details -->
+                        <a class="btn" data-toggle="modal" data-target="#multiplicationModalCenter">Details</a>
+                        <div class="modal fade" id="multiplicationModalCenter" tabindex="-1" role="dialog"
+                            aria-labelledby="multiplicationModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header text-left">
+                                        <h3 class="modal-title" id="multiplicationModalLongTitle">
+                                            Multiplication
+                                            Game
+                                            <p class="modal-project-desription">Interactive application</p>
+                                        </h3>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body text-left">
+                                        <p>Description is in progress ...</p>
                                     </div>
                                 </div>
                             </div>
+                        </div>
                     </div>
                 </article>
 
@@ -790,8 +852,8 @@
             </div>
             <!-- More Projects -->
             <aside>
-            <p class="more-projects">View more projects <a href="https://github.com/NatalliaA" target="_blank"><i
-                        class="fa fa-github media-icon-more"></i></a></p>
+                <p class="more-projects">View more projects <a href="https://github.com/NatalliaA" target="_blank"><i
+                            class="fa fa-github media-icon-more"></i></a></p>
             </aside>
         </section>
 
