@@ -12,6 +12,7 @@ $(function () {
     //show only jQuery projects
     $("#jquerybtn").click(function () {
         $(".project-outer-box").hide();
+        $("#citiesproject").show(1000);
         $("#schoolproject").show(1000);
         $("#drawingproject").show(1000);
     });
@@ -19,8 +20,7 @@ $(function () {
     //show only JavaScript projects
     $("#jsbtn").click(function () {
         $(".project-outer-box").hide();
-        $("#natureproject").show(1000);
-        $("#citiesproject").show(1000);
+        $("#natureproject").show(1000);        
         $("#multiplicationproject").show(1000);
         $("#drawingproject").show(1000);           
     });

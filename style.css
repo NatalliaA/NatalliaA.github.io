@@ -273,10 +273,15 @@ h3.modal-title{
     font-size: 1.3rem;
 }
 
+.modal-content p{    
+    margin-bottom: 0.4em;
+    font-size: 1em;
+}
+
 .modal-project-desription {
-    margin-top: 0.3em;
-    font-size: 0.8em;
-    color: black;
+    /* margin: 0; */
+    font-size: 1em;
+    color: rgba(60, 37, 161, 0.9);
 }
 
 /*Section: Contact*/
