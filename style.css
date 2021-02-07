@@ -2,16 +2,18 @@ body {
     font-size: 16px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    margin-top: 3.5em;    
+    margin-top: 3.5em;
     /*for scrollspy: linking sections with navigation bar at scrolling*/
-    position: relative;    
+    position: relative;
 }
+
 /* CSS styling in older browser that don't support HTML5 semantic elements */
+
 header, nav, section, figure, article, aside, address, footer {
     display: block;
-  }
+}
 
-p{
+p {
     font-size: 1.2rem;
 }
 
@@ -57,7 +59,7 @@ nav a {
     padding: 0.2em;
 }
 
-a:hover .media-icon-navbar {   
+a:hover .media-icon-navbar {
     color: rgba(23, 155, 159, 1);
     background-color: rgb(255, 255, 255);
 }
@@ -69,21 +71,21 @@ a:hover .media-icon-navbar {
 
 /*Sections*/
 
-.container-fluid {   
+.container-fluid {
     padding-bottom: 5em;
 }
 
 .row {
     padding-bottom: 0;
-}   
+}
 
 /* Section Title */
 
 .title-section {
-    padding: 5em 0 3em 0;   
+    padding: 5em 0 3em 0;
 }
 
-div.title-section > h2 {
+div.title-section>h2 {
     font-size: 2.3em;
 }
 
@@ -93,13 +95,13 @@ div.title-section > h2 {
     color: rgb(52, 58, 64);
 }
 
-.my-name {   
+.my-name {
     color: rgba(23, 155, 159, 0.9);
     box-shadow: 0.1em 0.2em 0.1em rgba(52, 58, 64, 0.3);
     border-radius: 4px;
 }
 
-.my-profession { 
+.my-profession {
     border-radius: 4px;
     color: rgba(60, 37, 161, 0.8);
     box-shadow: 0.1em 0.2em 0.1em rgba(52, 58, 64, 0.3);
@@ -164,11 +166,11 @@ h3.card-title {
     border-radius: 4px !important;
     color: rgb(52, 58, 64);
     border-radius: 0;
-    margin: 0 0.1em 0.5em 0.1em;   
+    margin: 0 0.1em 0.5em 0.1em;
     box-shadow: 0.1em 0.1em 0.2em rgba(52, 58, 64, 0.4);
 }
 
-.btn:hover {   
+.btn:hover {
     background-color: rgba(45, 33, 97, 0.9);
     color: rgb(255, 255, 255) !important;
     box-shadow: 0.1em 0.1em 0.2em rgba(52, 58, 64, 0.4);
@@ -207,10 +209,10 @@ h3.card-title {
     padding-top: 1em;
     padding-bottom: 0.5em;
     margin: 0;
-    color: rgba(60, 37, 161, 1);      
+    color: rgba(60, 37, 161, 1);
 }
 
-h3.project-name{
+h3.project-name {
     font-size: 1.3rem;
 }
 
@@ -220,6 +222,7 @@ h3.project-name{
     color: rgb(52, 58, 64);
     font-size: 1em;
 }
+
 /* Code Button Icon */
 
 .icon-viewcode {
@@ -265,21 +268,20 @@ h3.project-name{
 /* Modal for Project Details */
 
 .modal-header {
-    padding-bottom: 0;   
+    padding-bottom: 0;
 }
 
-h3.modal-title{
+h3.modal-title {
     color: #179b9f;
     font-size: 1.3rem;
 }
 
-.modal-content p{    
+.modal-content p {
     margin-bottom: 0.4em;
     font-size: 1em;
 }
 
 .modal-project-desription {
-    /* margin: 0; */
     font-size: 1em;
     color: rgba(60, 37, 161, 0.9);
 }
@@ -326,8 +328,9 @@ footer {
 }
 
 /* XS Screens */
+
 @media only screen and (max-width: 600px) {
     p {
-      font-size: 1em;
+        font-size: 1em;
     }
-  }
+}
