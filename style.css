@@ -361,8 +361,7 @@ footer {
         width: 80%;
     }
     .intro-box-text {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 5em;
     }
     #card-about {
         margin-bottom: 0;
@@ -376,8 +375,7 @@ footer {
         width: 85%;
     }
     .intro-box-text {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 5em;
     }
     #card-about {
         margin-bottom: 0;
@@ -389,10 +387,10 @@ footer {
 @media (min-width: 1400px) {
     #introduction-img {
         width: 70%;
+        margin-right: 5em;
     }
     .intro-box-text {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 5em;
     }
     #card-about {
         margin-bottom: 0;
