@@ -85,7 +85,7 @@ a:hover .media-icon-navbar {
     padding: 5em 0 3em 0;
 }
 
-div.title-section > h2 {
+div.title-section>h2 {
     font-size: 2.3em;
 }
 
@@ -99,6 +99,7 @@ div.title-section > h2 {
     color: rgba(23, 155, 159, 0.9);
     box-shadow: 0.1em 0.2em 0.1em rgba(52, 58, 64, 0.3);
     border-radius: 4px;
+    margin-top: 0;
 }
 
 .my-profession {
@@ -114,16 +115,14 @@ h2.my-profession {
     font-size: 2em;
 }
 
-#introduction-img {      
+#card-about {
+    background-color: rgba(234, 238, 241, 0.5);
+}
+
+#introduction-img {
     width: 100%;
     border-radius: 4px;
     box-shadow: 0.3em 0.4em 0.4em rgba(52, 58, 64, 0.3);
-    margin-bottom: 2em;
-}
-
-#card-about {   
-    margin-bottom: 2em;
-    background-color: rgba(234, 238, 241, 0.5);
 }
 
 /*Section: Skills */
@@ -328,10 +327,74 @@ footer {
     color: rgba(255, 255, 255, 0.6);
 }
 
-/* XS Screens */
+/* XS devices (portrait phones, less than 576px) */
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 575px) {
     p {
         font-size: 1em;
+    }
+    #card-about {
+        margin-bottom: 2em;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #card-about {
+        margin-bottom: 2em;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #card-about {
+        margin-bottom: 2em;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #introduction-img {
+        width: 80%;
+    }
+    .intro-box-text {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #card-about {
+        margin-bottom: 0;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    #introduction-img {
+        width: 85%;
+    }
+    .intro-box-text {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #card-about {
+        margin-bottom: 0;
+    }
+}
+
+/* Super Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1400px) {
+    #introduction-img {
+        width: 70%;
+    }
+    .intro-box-text {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #card-about {
+        margin-bottom: 0;
     }
 }
