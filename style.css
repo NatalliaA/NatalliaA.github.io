@@ -128,10 +128,8 @@ h2.my-profession {
 /*Section: Skills */
 
 #skills {
-    color: rgb(52, 58, 64);
     color: rgba(255, 255, 255, 0.9);
     background-color: rgba(23, 155, 159, 1);
-    border-top: 1px solid rgba(65, 105, 225, 0.2);
 }
 
 .card {
@@ -154,8 +152,6 @@ h3.card-title {
 #projects {
     color: rgb(52, 58, 64);
     background-color: rgba(255, 255, 255, 0.7);
-    border-top: 1px solid rgba(65, 105, 225, 0.2);
-    border-bottom: 1px solid rgba(65, 105, 225, 0.2);
 }
 
 /* Buttons */
@@ -286,12 +282,35 @@ h3.modal-title {
     color: rgba(60, 37, 161, 0.9);
 }
 
+/*Section: My Story*/
+
+#story {
+    /* color: rgb(52, 58, 64);
+    background-color: rgba(255, 255, 255, 0.7);    
+    border-top: 1px solid rgba(65, 105, 225, 0.2); */
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(23, 155, 159, 1);
+}
+
+ul.card-text {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.card-body{
+    border: 1px green solid;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 /*Section: Contact*/
 
 #contact {
-    background-color: rgba(45, 33, 97, 0.9);
     padding-bottom: 4em;
-    color: rgb(255, 255, 255);
+    color: rgb(52, 58, 64);
+    background-color: rgba(255, 255, 255, 0.7);
+    /* background-color: rgba(45, 33, 97, 0.9);
+    color: rgb(255, 255, 255); */
 }
 
 #email {
@@ -307,23 +326,27 @@ h3.modal-title {
 
 .media-icon-contact {
     font-size: 2em;
-    color: rgb(255, 255, 255);
+    color: rgba(45, 33, 97, 0.9);
+    /* color: rgb(255, 255, 255); */
     margin: 0 0.2em 0.2em 0.2em;
-    border: 0.1em solid rgb(255, 255, 255);
+    /* border: 0.1em solid rgb(255, 255, 255); */
+    border: 0.1em solid rgba(45, 33, 97, 0.9);
     border-radius: 50%;
     padding: 0.3em;
 }
 
 a:hover .media-icon-contact {
     color: rgba(23, 155, 159, 1);
-    background-color: rgb(255, 255, 255);
+    border: 0.1em solid rgba(23, 155, 159, 1);
+    /* background-color: rgb(255, 255, 255); */
 }
 
 /*Footer*/
 
 footer {
     padding: 1.5em 0 0.5em 0;
-    background-color: rgb(52, 58, 64);
+    /* background-color: rgb(52, 58, 64); */
+    background-color: rgba(45, 33, 97, 0.9);
     color: rgba(255, 255, 255, 0.6);
 }
 
