@@ -299,6 +299,11 @@ ul.card-text {
     margin-right: 0;
 }
 
+.card-role-body {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+
 /*Section: Contact*/
 
 #contact {
@@ -311,7 +316,7 @@ ul.card-text {
     margin-bottom: 2em;
 }
 
-#email > p {
+#email>p {
     font-weight: 400;
     font-size: 1.2em;
 }
