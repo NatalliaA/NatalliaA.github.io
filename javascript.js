@@ -29,6 +29,7 @@ $(function () {
     $("#cssgridbtn").click(function () {
         $(".project-outer-box").hide();
         $("#natureproject").show(1000);
+        $("#bookproject").show(1000); 
         $("#shakesproject").show(1000);
         $("#citiesproject").show(1000);
         $("#questionsproject").show(1000); 
@@ -44,9 +45,10 @@ $(function () {
 
     //show only React.js projects
     $("#reactbtn").click(function () {
-        $(".project-outer-box").hide();
+        $(".project-outer-box").hide();       
         $("#shakesproject").show(1000);
-        $("#questionsproject").show(1000); 
+        $("#bookproject").show(1000); 
+        $("#questionsproject").show(1000);       
     });
 
     //show only Node.js projects
