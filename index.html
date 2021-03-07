@@ -145,7 +145,7 @@
                         <div class="card-body">
                             <h3 class="card-title">FRONT-END</h3>
                             <p class="card-text">HTML5 | CSS3 | Bootstrap | Responsive Layouts | JavaScript
-                                | ES6 | jQuery | Third-Party APIs | React.js</p>
+                                | ES6 | jQuery | Third-Party APIs | React.js | Redux</p>
                         </div>
                     </div>
                 </div>
@@ -183,7 +183,7 @@
                 <button id="bootstrapbtn" class="btn" type="button">Bootstrap</button>
                 <button id="jsbtn" class="btn" type="button">JavaScript</button>
                 <button id="jquerybtn" class="btn" type="button">jQuery</button>
-                <button id="reactbtn" class="btn" type="button">React.js</button>
+                <button id="reactbtn" class="btn" type="button">React.js</button>                
                 <button id="nodejsbtn" class="btn" type="button">Node.js</button>
                 <button id="thirdpartybtn" class="btn" type="button">REST APIs</button>
                 <button id="aspnetbtn" class="btn" type="button">ASP.NET</button>
@@ -308,22 +308,22 @@
                             <!-- Slideshow -->
                             <figure class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="images/coding1.jpg" class="img-fluid" alt="Online School">
+                                    <img src="images/coding1.jpg" class="img-fluid" alt="Coding Book">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="images/coding2.jpg" class="img-fluid" alt="Online School">
+                                    <img src="images/coding2.jpg" class="img-fluid" alt="Coding Book">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="images/coding3.jpg" class="img-fluid" alt="Online School">
+                                    <img src="images/coding3.jpg" class="img-fluid" alt="Coding Book">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="images/coding4.jpg" class="img-fluid" alt="Online School">
+                                    <img src="images/coding4.jpg" class="img-fluid" alt="Coding Book">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="images/coding5.jpg" class="img-fluid" alt="Online School">
+                                    <img src="images/coding5.jpg" class="img-fluid" alt="Coding Book">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="images/coding6.jpg" class="img-fluid" alt="Online School">
+                                    <img src="images/coding6.jpg" class="img-fluid" alt="Coding Book">
                                 </div>
                             </figure>
                             <!-- Left and Right Controls -->
@@ -335,11 +335,11 @@
                             </a>
                         </div>
                         <!--Technology-->
-                        <p class="project-technology">HTML5 | CSS3 | CSS Grid | React.js | React Hooks | React Router
+                        <p class="project-technology">HTML5 | CSS3 | CSS Grid | React.js | React Hooks
                         </p>
                         <a class="btn" href="https://natalliaa.github.io/coding-kids-react/" target="_blank">Demo</a>
-                        <a class="btn" href="https://github.com/NatalliaA/coding-kids-react/tree/master" target="_blank">Code <i
-                                class="fa fa-github icon-viewcode"></i></a>
+                        <a class="btn" href="https://github.com/NatalliaA/coding-kids-react/tree/master"
+                            target="_blank">Code <i class="fa fa-github icon-viewcode"></i></a>
                         <!-- Modal to Show Project Details -->
                         <a class="btn" data-toggle="modal" data-target="#booksModalCenter">Details</a>
                         <div class="modal fade" id="booksModalCenter" tabindex="-1" role="dialog"
@@ -358,11 +358,11 @@
                                     </div>
                                     <div class="modal-body text-left">
                                         <p class="modal-project-desription">HTML5 | CSS3 | CSS Grid | React.js | React
-                                            Hooks | React Router</p>
+                                            Hooks</p>
                                         <ul>
                                             <li>Single-page application implemented with React.js and React Hooks</li>
                                             <li>Navigation bar implemented with React Router</li>
-                                            <li>Framework-free styling and responsive layout with CSS Grid</li>                                           
+                                            <li>Framework-free styling and responsive layout with CSS Grid</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -448,6 +448,158 @@
                                             <li>Users' images stored in the cloud with Cloudinary API</li>
                                             <li>User authentication (credentials, password reset, etc.) with Passport.js
                                                 and Nodemailer</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!--Project: Shopping Cart-->
+                <article id="cartproject" class="col-md-6 col-xl-4 project-outer-box">
+                    <div class="project-inner-box">
+                        <header>
+                            <h3 class="project-name">Shopping Cart</h3>
+                        </header>
+                        <!-- Carousel -->
+                        <div id="cart-carousel" class="carousel" data-interval="false" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#cart-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#cart-carousel" data-slide-to="1"></li>
+                                <li data-target="#cart-carousel" data-slide-to="2"></li>
+                                <li data-target="#cart-carousel" data-slide-to="3"></li>
+                            </ul>
+                            <!-- Slideshow -->
+                            <figure class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/cart1.jpg" class="img-fluid" alt="Shopping Cart">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/cart2.jpg" class="img-fluid" alt="Shopping Cart">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/cart3.jpg" class="img-fluid" alt="Shopping Cart">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/cart4.jpg" class="img-fluid" alt="Shopping Cart">
+                                </div>
+                            </figure>
+                            <!-- Left and Right Controls -->
+                            <a class="carousel-control-prev" href="#cart-carousel" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#cart-carousel" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                        <!--Technology-->
+                        <p class="project-technology">HTML5 | CSS3 | CSS Grid | React.js | Redux
+                        </p>
+                        <a class="btn" href="https://natalliaa.github.io/coding-kids-react/" target="_blank">Demo</a>
+                        <a class="btn" href="https://github.com/NatalliaA/coding-kids-react/tree/master"
+                            target="_blank">Code <i class="fa fa-github icon-viewcode"></i></a>
+                        <!-- Modal to Show Project Details -->
+                        <a class="btn" data-toggle="modal" data-target="#cartModalCenter">Details</a>
+                        <div class="modal fade" id="cartModalCenter" tabindex="-1" role="dialog"
+                            aria-labelledby="cartModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header d-block text-left">
+                                        <div class="d-flex">
+                                            <h3 class="modal-title" id="cartModalLongTitle">Shopping Cart
+                                            </h3>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <p>Responsive page with health classes to add to cart</p>
+                                    </div>
+                                    <div class="modal-body text-left">
+                                        <p class="modal-project-desription">HTML5 | CSS3 | CSS Grid | React.js | Redux</p>
+                                        <ul>
+                                            <li>Project implemented with React.js and Redux</li>
+                                            <li>User can add or remove health classes from the cart</li>
+                                            <li>The total amount of classes and fees are displayed</li>
+                                            <li>Framework-free styling and responsive layout with CSS Grid</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!--Project: Lesson with Quiz-->
+                <article id="schoolproject" class="col-md-6 col-xl-4 project-outer-box">
+                    <div class="project-inner-box">
+                        <header>
+                            <h3 class="project-name">Lesson with Quiz</h3>
+                        </header>
+                        <!-- Carousel -->
+                        <div id="school-carousel" class="carousel" data-interval="false" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#school-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#school-carousel" data-slide-to="1"></li>
+                                <li data-target="#school-carousel" data-slide-to="2"></li>
+                                <li data-target="#school-carousel" data-slide-to="3"></li>
+                                <li data-target="#school-carousel" data-slide-to="4"></li>
+                            </ul>
+                            <!-- Slideshow -->
+                            <figure class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/schoolscreen3.png" class="img-fluid" alt="Online School">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/schoolscreen1.png" class="img-fluid" alt="Online School">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/schoolscreen2.png" class="img-fluid" alt="Online School">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/schoolscreen4.png" class="img-fluid" alt="Online School">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/schoolscreen5.png" class="img-fluid" alt="Online School">
+                                </div>
+                            </figure>
+                            <!-- Left and Right Controls -->
+                            <a class="carousel-control-prev" href="#school-carousel" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#school-carousel" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                        <!--Technology-->
+                        <p class="project-technology">HTML5 | CSS3 | Bootstrap | JavaScript | jQuery</p>
+                        <a class="btn" href="school/index.html" target="_blank">Demo</a>
+                        <a class="btn" href="https://github.com/NatalliaA/online-school-jsquiz" target="_blank">Code
+                            <i class="fa fa-github icon-viewcode"></i></a>
+                        <!-- Modal to Show Project Details -->
+                        <a class="btn" data-toggle="modal" data-target="#lessonModalCenter">Details</a>
+                        <div class="modal fade" id="lessonModalCenter" tabindex="-1" role="dialog"
+                            aria-labelledby="lessonModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header d-block text-left">
+                                        <div class="d-flex">
+                                            <h3 class="modal-title" id="lessonModalLongTitle">Lesson with Quiz</h3>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <p>Online multimedia lesson</p>
+                                    </div>
+                                    <div class="modal-body text-left">
+                                        <p class="modal-project-desription">HTML5 | CSS3 | Bootstrap | JavaScript |
+                                            jQuery</p>
+                                        <ul>
+                                            <li>Capital city quiz with sound effects using jQuery</li>
+                                            <li>Responsive layout with Bootstrap's grid system</li>
+                                            <li>Styling with Bootstrap's components (carousel, card, embed, etc.)</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -608,83 +760,6 @@
                     </div>
                 </article>
 
-                <!--Project: Lesson with Quiz-->
-                <article id="schoolproject" class="col-md-6 col-xl-4 project-outer-box">
-                    <div class="project-inner-box">
-                        <header>
-                            <h3 class="project-name">Lesson with Quiz</h3>
-                        </header>
-                        <!-- Carousel -->
-                        <div id="school-carousel" class="carousel" data-interval="false" data-ride="carousel">
-                            <!-- Indicators -->
-                            <ul class="carousel-indicators">
-                                <li data-target="#school-carousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#school-carousel" data-slide-to="1"></li>
-                                <li data-target="#school-carousel" data-slide-to="2"></li>
-                                <li data-target="#school-carousel" data-slide-to="3"></li>
-                                <li data-target="#school-carousel" data-slide-to="4"></li>
-                            </ul>
-                            <!-- Slideshow -->
-                            <figure class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="images/schoolscreen3.png" class="img-fluid" alt="Online School">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="images/schoolscreen1.png" class="img-fluid" alt="Online School">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="images/schoolscreen2.png" class="img-fluid" alt="Online School">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="images/schoolscreen4.png" class="img-fluid" alt="Online School">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="images/schoolscreen5.png" class="img-fluid" alt="Online School">
-                                </div>
-                            </figure>
-                            <!-- Left and Right Controls -->
-                            <a class="carousel-control-prev" href="#school-carousel" data-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
-                            </a>
-                            <a class="carousel-control-next" href="#school-carousel" data-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                            </a>
-                        </div>
-                        <!--Technology-->
-                        <p class="project-technology">HTML5 | CSS3 | Bootstrap | JavaScript | jQuery</p>
-                        <a class="btn" href="school/index.html" target="_blank">Demo</a>
-                        <a class="btn" href="https://github.com/NatalliaA/online-school-jsquiz" target="_blank">Code
-                            <i class="fa fa-github icon-viewcode"></i></a>
-                        <!-- Modal to Show Project Details -->
-                        <a class="btn" data-toggle="modal" data-target="#lessonModalCenter">Details</a>
-                        <div class="modal fade" id="lessonModalCenter" tabindex="-1" role="dialog"
-                            aria-labelledby="lessonModalCenterTitle" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header d-block text-left">
-                                        <div class="d-flex">
-                                            <h3 class="modal-title" id="lessonModalLongTitle">Lesson with Quiz</h3>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <p>Online multimedia lesson</p>
-                                    </div>
-                                    <div class="modal-body text-left">
-                                        <p class="modal-project-desription">HTML5 | CSS3 | Bootstrap | JavaScript |
-                                            jQuery</p>
-                                        <ul>
-                                            <li>Capital city quiz with sound effects using jQuery</li>
-                                            <li>Responsive layout with Bootstrap's grid system</li>
-                                            <li>Styling with Bootstrap's components (carousel, card, embed, etc.)</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
                 <!--Project: Q&A-->
                 <article id="questionsproject" class="col-md-6 col-xl-4 project-outer-box">
                     <div class="project-inner-box">
@@ -742,9 +817,9 @@
                                             collapsibles/accordion</p>
                                     </div>
                                     <div class="modal-body text-left">
-                                        <p class="modal-project-desription">HTML5 | CSS3 | CSS Grid | React.js</p>
+                                        <p class="modal-project-desription">HTML5 | CSS3 | CSS Grid | React.js | React Hooks</p>
                                         <ul>
-                                            <li>Q&A component with React.js state hook</li>
+                                            <li>Q&A component with React useState hook</li>
                                             <li>Collapsible accordion to show/hide answers</li>
                                             <li>Framework-free styling and responsive layout with CSS Grid</li>
                                         </ul>
